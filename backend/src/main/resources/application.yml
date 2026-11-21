@@ -1,0 +1,52 @@
+server:
+  address: ${SERVER_ADDRESS:127.0.0.1}
+  port: ${PORT:8080}
+  error:
+    include-message: never
+    include-stacktrace: never
+spring:
+  servlet:
+    multipart:
+      max-file-size: 5MB
+      max-request-size: 6MB
+  datasource:
+    url: ${DB_URL:jdbc:mysql://localhost:3306/gymfit?connectionTimeZone=UTC}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate.jdbc.time_zone: UTC
+  flyway:
+    enabled: true
+  jackson:
+    deserialization:
+      fail-on-unknown-properties: true
+usda:
+  api:
+    key: ${USDA_API_KEY:}
+    base-url: ${USDA_BASE_URL:https://api.nal.usda.gov/fdc/v1}
+    cache-days: ${USDA_CACHE_DAYS:30}
+    min-request-interval-ms: ${USDA_MIN_REQUEST_INTERVAL_MS:1000}
+spoonacular:
+  api:
+    key: ${SPOONACULAR_API_KEY:}
+    enabled: ${SPOONACULAR_ENABLED:false}
+gymfit:
+  security:
+    demo: ${GYMFIT_SECURITY_DEMO:false}
+    issuer: ${JWT_ISSUER_URI:}
+    audience: ${JWT_AUDIENCE:gymfit}
+  cors-origin: ${FRONTEND_ORIGIN:http://localhost:5173}
+  reporting:
+    time-zone: ${REPORTING_TIME_ZONE:Asia/Kolkata}
+  nutrition:
+    deficit: ${CALORIE_DEFICIT:300}
+    surplus: ${CALORIE_SURPLUS:250}
+    minimum-calories: ${MINIMUM_CALORIES:1500}
+    maximum-calories: ${MAXIMUM_CALORIES:4000}
+logging:
+  level:
+    com.gymfit: INFO

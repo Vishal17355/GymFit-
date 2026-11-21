@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 680" width="100%" height="100%">
+  <defs>
+    <style>
+      .title { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 20px; font-weight: bold; fill: #1e293b; }
+      .subtitle { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; fill: #64748b; }
+      .box-label { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 600; }
+      .box-desc { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 11px; fill: #475569; }
+      .section-title { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: bold; fill: #334155; text-transform: uppercase; letter-spacing: 0.05em; }
+      .arrow-text { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 11px; fill: #0284c7; font-weight: 500; }
+      .mono { font-family: Consolas, 'Courier New', monospace; font-size: 11px; }
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#0284c7" />
+    </marker>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#10b981" />
+    </marker>
+    <marker id="arrow-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#94a3b8" />
+    </marker>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#0f172a" flood-opacity="0.08" />
+    </filter>
+  </defs>
+
+  <rect width="100%" height="100%" fill="#f8fafc" rx="8" />
+  
+  <rect x="0" y="0" width="1000" height="64" fill="#ffffff" rx="8" />
+  <line x1="0" y1="64" x2="1000" y2="64" stroke="#e2e8f0" stroke-width="1.5" />
+  <circle cx="36" cy="32" r="14" fill="#3b82f6" />
+  <text x="36" y="37" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="bold" fill="#ffffff">G</text>
+  <text x="64" y="30" class="title">GymFit &bull; Membership Lifecycle & Payment Processing</text>
+  <text x="64" y="48" class="subtitle">Multi-Gym Fitness Tracking &amp; Gym Management SaaS Platform</text>
+
+  
+  <line x1="120" y1="90" x2="120" y2="630" stroke="#cbd5e1" stroke-dasharray="4 4" />
+  <line x1="370" y1="90" x2="370" y2="630" stroke="#cbd5e1" stroke-dasharray="4 4" />
+  <line x1="630" y1="90" x2="630" y2="630" stroke="#cbd5e1" stroke-dasharray="4 4" />
+  <line x1="880" y1="90" x2="880" y2="630" stroke="#cbd5e1" stroke-dasharray="4 4" />
+
+  <rect x="50" y="80" width="140" height="40" rx="6" fill="#e0f2fe" stroke="#38bdf8" />
+  <text x="120" y="105" text-anchor="middle" class="box-label" fill="#0369a1">Member / UI</text>
+
+  <rect x="290" y="80" width="160" height="40" rx="6" fill="#f3e8ff" stroke="#c084fc" />
+  <text x="370" y="105" text-anchor="middle" class="box-label" fill="#7e22ce">Membership Service</text>
+
+  <rect x="550" y="80" width="160" height="40" rx="6" fill="#fef3c7" stroke="#f59e0b" />
+  <text x="630" y="105" text-anchor="middle" class="box-label" fill="#b45309">Payment Service</text>
+
+  <rect x="800" y="80" width="160" height="40" rx="6" fill="#dcfce7" stroke="#4ade80" />
+  <text x="880" y="105" text-anchor="middle" class="box-label" fill="#15803d">MySQL Database</text>
+
+  <line x1="120" y1="160" x2="365" y2="160" stroke="#0284c7" stroke-width="1.8" marker-end="url(#arrow)" />
+  <text x="242" y="152" text-anchor="middle" class="arrow-text">1. Select Plan (e.g. 3-Month Gold)</text>
+
+  <line x1="370" y1="200" x2="875" y2="200" stroke="#0284c7" stroke-width="1.8" marker-end="url(#arrow)" />
+  <text x="625" y="192" text-anchor="middle" class="arrow-text">2. Create member_membership (status: PENDING)</text>
+
+  <line x1="370" y1="240" x2="625" y2="240" stroke="#0284c7" stroke-width="1.8" marker-end="url(#arrow)" />
+  <text x="497" y="232" text-anchor="middle" class="arrow-text">3. Process Payment Transaction</text>
+
+  <line x1="630" y1="280" x2="875" y2="280" stroke="#0284c7" stroke-width="1.8" marker-end="url(#arrow)" />
+  <text x="752" y="272" text-anchor="middle" class="arrow-text">4. Insert payments record (status: COMPLETED)</text>
+
+  <line x1="630" y1="320" x2="375" y2="320" stroke="#10b981" stroke-width="1.8" stroke-dasharray="4 2" marker-end="url(#arrow-green)" />
+  <text x="502" y="312" text-anchor="middle" class="arrow-text" fill="#10b981">5. Payment Confirmed Callback</text>
+
+  <line x1="370" y1="360" x2="875" y2="360" stroke="#0284c7" stroke-width="1.8" marker-end="url(#arrow)" />
+  <text x="625" y="352" text-anchor="middle" class="arrow-text">6. Activate Membership (ACTIVE, start &amp; end dates)</text>
+
+  <line x1="370" y1="400" x2="875" y2="400" stroke="#0284c7" stroke-width="1.8" marker-end="url(#arrow)" />
+  <text x="625" y="392" text-anchor="middle" class="arrow-text">7. Regenerate / Enable Dynamic QR Code Hash</text>
+
+  <line x1="370" y1="450" x2="125" y2="450" stroke="#10b981" stroke-width="1.8" stroke-dasharray="4 2" marker-end="url(#arrow-green)" />
+  <text x="247" y="442" text-anchor="middle" class="arrow-text" fill="#10b981">8. HTTP 201 Created: Active Pass Displayed</text>
+
+  <rect x="50" y="490" width="880" height="130" rx="8" fill="#f8fafc" stroke="#cbd5e1" />
+  <text x="70" y="515" class="section-title">Automated Expiration &amp; Renewal Engine</text>
+  <text x="70" y="540" class="box-desc">&bull; Daily Spring Scheduled Job (@Scheduled cron) checks member_memberships where end_date &lt; TODAY.</text>
+  <text x="70" y="562" class="box-desc">&bull; Automatically transitions status to EXPIRED and disables QR pass check-in access at gym turnstiles.</text>
+  <text x="70" y="584" class="box-desc">&bull; Sends renewal reminder notifications to member via email and in-app alert.</text>
+
+</svg>

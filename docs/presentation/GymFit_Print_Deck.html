@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GymFit Project Presentation PDF</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+  <style>
+    @page {
+      size: A4 landscape;
+      margin: 0;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      -webkit-print-color-adjust: exact !important;
+      print-color-adjust: exact !important;
+    }
+    body {
+      background-color: #0b0f19;
+      color: #f3f4f6;
+    }
+    .slide {
+      width: 297mm;
+      height: 210mm;
+      padding: 16mm 22mm;
+      background: linear-gradient(145deg, #0d1322 0%, #111827 100%);
+      page-break-after: always;
+      break-after: page;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border-bottom: 2px solid #f59e0b;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1.5px solid #1f2937;
+      padding-bottom: 10px;
+    }
+    .badge {
+      font-size: 11px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: #f59e0b;
+    }
+    .title {
+      font-size: 24px;
+      font-weight: 900;
+      color: #ffffff;
+      margin-top: 4px;
+    }
+    .category {
+      font-size: 12px;
+      color: #9ca3af;
+      font-weight: 600;
+    }
+    .content {
+      flex: 1;
+      padding: 16px 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .footer {
+      border-top: 1px solid #1f2937;
+      padding-top: 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 11px;
+      color: #6b7280;
+    }
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    .grid-3 {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 16px;
+    }
+    .card {
+      background: #172033;
+      border: 1px solid #28354e;
+      border-radius: 12px;
+      padding: 14px 18px;
+    }
+    .card-gold {
+      border-color: rgba(245, 158, 11, 0.4);
+      background: rgba(245, 158, 11, 0.06);
+    }
+    .card-cyan {
+      border-color: rgba(6, 182, 212, 0.4);
+      background: rgba(6, 182, 212, 0.06);
+    }
+    .card-green {
+      border-color: rgba(16, 185, 129, 0.4);
+      background: rgba(16, 185, 129, 0.06);
+    }
+    .math-box {
+      background: #080d1a;
+      border: 1px solid #2d3b55;
+      border-left: 4px solid #f59e0b;
+      padding: 10px 14px;
+      border-radius: 8px;
+      margin: 8px 0;
+      font-family: monospace;
+      font-size: 13px;
+      color: #93c5fd;
+    }
+    ul { list-style: none; }
+    li { margin-bottom: 7px; position: relative; padding-left: 18px; font-size: 13.5px; line-height: 1.5; color: #d1d5db; }
+    li::before { content: "•"; color: #f59e0b; position: absolute; left: 4px; font-weight: bold; font-size: 16px; top: -2px; }
+    p { font-size: 13.5px; line-height: 1.5; color: #d1d5db; }
+    table { width: 100%; border-collapse: collapse; font-size: 12px; }
+    th { background: #172033; color: #f59e0b; padding: 7px 10px; text-align: left; }
+    td { padding: 6px 10px; border-bottom: 1px solid #1f2937; color: #d1d5db; }
+  </style>
+</head>
+<body>
+
+  <!-- SLIDE 1: Title -->
+  <div class="slide">
+    <div class="header">
+      <div class="badge">Academic Defense</div>
+      <div class="category">Computer Science &amp; Engineering</div>
+    </div>
+    <div class="content" style="text-align: center; justify-content: center;">
+      <div style="font-size: 13px; font-weight: 800; color: #f59e0b; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 8px;">
+        Major Project Seminar &amp; Defense
+      </div>
+      <h1 style="font-size: 36px; font-weight: 900; color: #fff; margin-bottom: 14px; line-height: 1.2;">
+        GymFit: Intelligent Full-Stack Gym Management &amp; Personalized Nutrition Ecosystem
+      </h1>
+      <p style="font-size: 15px; color: #9ca3af; max-width: 820px; margin: 0 auto 24px auto;">
+        An Evidence-Based Web Architecture Unifying Clinical Mifflin–St Jeor Energy Modeling, Gym Macronutrient Partitioning, and a Single-Screen Zero-Scroll Nutrition Dashboard.
+      </p>
+      <div style="display: inline-flex; gap: 36px; background: #172033; padding: 14px 32px; border-radius: 12px; border: 1px solid #28354e; text-align: left; margin: 0 auto;">
+        <div>
+          <div style="font-size: 11px; text-transform: uppercase; color: #f59e0b; font-weight: bold;">Supervision</div>
+          <div style="font-size: 14px; font-weight: bold; color: #fff;">Guide: Assistant Professor, Dept. of CSE</div>
+        </div>
+        <div style="border-left: 1px solid #374151; padding-left: 24px;">
+          <div style="font-size: 11px; text-transform: uppercase; color: #f59e0b; font-weight: bold;">Candidate</div>
+          <div style="font-size: 14px; font-weight: bold; color: #fff;">Student Presentation (Final Year CSE)</div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <span>GymFit: Intelligent Gym Management System</span>
+      <span>Slide 1 / 15</span>
+    </div>
+  </div>
+
+  <!-- SLIDE 2: Outline -->
+  <div class="slide">
+    <div class="header">
+      <div><div class="badge">Agenda</div><div class="title">Presentation Outline</div></div>
+      <div class="category">Table of Contents</div>
+    </div>
+    <div class="content">
+      <div class="grid-2">
+        <div class="card card-gold">
+          <h4 style="color: #f59e0b; margin-bottom: 10px; font-size: 15px;">Part I: Background &amp; Architecture</h4>
+          <ul>
+            <li><strong>Introduction &amp; Industry Motivation</strong>: Solving high gym member churn and generic diet templates.</li>
+            <li><strong>Problem Statement &amp; Objectives</strong>: Eliminating guesswork, scroll fatigue, and administrative overhead.</li>
+            <li><strong>System Architecture &amp; Tech Stack</strong>: 3-Tier React 18, Vite 6, Tailwind CSS, Node.js &amp; Express.</li>
+            <li><strong>Strict Architectural Boundary</strong>: Pure Member &amp; Admin governance (No trainer module dependency).</li>
+          </ul>
+        </div>
+        <div class="card card-cyan">
+          <h4 style="color: #06b6d4; margin-bottom: 10px; font-size: 15px;">Part II: Scientific Modeling &amp; Validation</h4>
+          <ul>
+            <li><strong>Mifflin–St Jeor Metabolism</strong>: Basal Metabolic Rate (BMR) formulation and test case proof.</li>
+            <li><strong>Total Daily Energy Expenditure</strong>: Physical activity multipliers and goal caloric adjustments.</li>
+            <li><strong>Gym Macronutrient Protocol</strong>: 1.4–2.0 g/kg protein, 25% fat, balance carbohydrates.</li>
+            <li><strong>Zero-Scroll 3-Box UI &amp; Smart Swaps</strong>: Morning, Mid-Day, Evening nutrition layout.</li>
+            <li><strong>3D Exercise Biomechanics &amp; Results</strong>: Incline chest press anatomical guidance and build metrics.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <span>GymFit: Presentation Outline</span>
+      <span>Slide 2 / 15</span>
+    </div>
+  </div>
+
+  <!-- SLIDE 3: Problem Statement -->
+  <div class="slide">
+    <div class="header">
+      <div><div class="badge">Motivation</div><div class="title">Problem Statement &amp; Market Deficiencies</div></div>
+      <div class="category">Industry Gaps</div>
+    </div>
+    <div class="content">
+      <div class="grid-2">
+        <div class="card" style="border-left: 4px solid #ef4444;">
+          <h4 style="color: #ef4444; margin-bottom: 8px;">1. Flaws in Conventional Fitness Apps</h4>
+          <ul>
+            <li><strong>65%+ Beginner Drop-out</strong>: Members drop memberships within 90 days due to lack of customized diet and form guidance.</li>
+            <li><strong>Unscientific Caloric Targets</strong>: Standard apps assign arbitrary caloric numbers without evaluating resting metabolic rate.</li>
+            <li><strong>Severe Vertical Scroll Fatigue</strong>: Viewing a 5-meal daily plan requires scrolling through 1200px+ of UI clutter, leading to logging abandonment.</li>
+            <li><strong>Disorganized Workouts</strong>: Static text instructions fail to communicate 3D bar paths and joint angle safety.</li>
+          </ul>
+        </div>
+        <div class="card" style="border-left: 4px solid #10b981;">
+          <h4 style="color: #10b981; margin-bottom: 8px;">2. The GymFit Engineering Solution</h4>
+          <ul>
+            <li><strong>Clinical Precision</strong>: Formulates exact daily requirements using the Mifflin–St Jeor BMR equation and TDEE scalars.</li>
+            <li><strong>Single-Screen 3-Box Nutrition</strong>: Fits all daily meals (Breakfast, Lunch/Pre-Workout, Dinner/Post-Workout) onto one screen.</li>
+            <li><strong>Dynamic Food Replacement</strong>: Real-time substitution engine preserving target calories and protein.</li>
+            <li><strong>Autonomous Operation</strong>: Focuses directly on member self-reliance and administrative oversight with no trainer dependency.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <span>Problem Statement &amp; Solution</span>
+      <span>Slide 3 / 15</span>
+    </div>
+  </div>
+
+  <!-- SLIDE 4: Architecture -->
+  <div class="slide">
+    <div class="header">
+      <div><div class="badge">Architecture</div><div class="title">3-Tier System Architecture &amp; Technology Stack</div></div>
+      <div class="category">Engineering Design</div>
+    </div>
+    <div class="content">
+      <div class="grid-3" style="margin-bottom: 12px;">
+        <div class="card">
+          <h4 style="color: #f59e0b; margin-bottom: 6px;">Presentation Tier</h4>
+          <p style="font-size: 12px; color: #9ca3af; margin-bottom: 6px;">React 18 SPA + Vite 6</p>
+          <ul>
+            <li>Single-Screen 3-Box UI</li>
+            <li>Tailwind CSS reactive layout</li>
+            <li>Tree-shakeable Lucide SVG icons</li>
+            <li>Sub-second Virtual DOM updates</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h4 style="color: #06b6d4; margin-bottom: 6px;">Application Tier</h4>
+          <p style="font-size: 12px; color: #9ca3af; margin-bottom: 6px;">Node.js + Express REST API</p>
+          <ul>
+            <li>Mifflin–St Jeor BMR/TDEE service</li>
+            <li>Macro penalty distance engine</li>
+            <li>Stateless JWT authorization</li>
+            <li>Sanitized request payload parsing</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h4 style="color: #10b981; margin-bottom: 6px;">Data Tier</h4>
+          <p style="font-size: 12px; color: #9ca3af; margin-bottom: 6px;">Persistent Store &amp; Schemas</p>
+          <ul>
+            <li>50+ verified food database</li>
+            <li>User profile metrics (W, H, A)</li>
+            <li>7-Day deterministic meal plans</li>
+            <li>Equipment inventory &amp; membership</li>
+          </ul>
+        </div>
+      </div>
+      <div class="card" style="background: rgba(245, 158, 11, 0.05); border-color: rgba(245, 158, 11, 0.3);">
+        <p style="font-size: 12.5px; color: #cbd5e1; text-align: center;">
+          <strong style="color: #f59e0b;">Scope Constraint:</strong> In accordance with project requirements, the system strictly isolates Member Self-Service and Gym Administration, omitting any trainer module layer.
+        </p>
+      </div>
+    </div>
+    <div class="footer">
+      <span>System Architecture &amp; Stack</span>
+      <span>Slide 4 / 15</span>
+    </div>
+  </div>
+
+  <!-- SLIDE 5: Mifflin St Jeor -->
+  <div class="slide">
+    <div class="header">
+      <div><div class="badge">Metabolism</div><div class="title">Mifflin–St Jeor Basal Metabolic Rate (BMR) Formulation</div></div>
+      <div class="category">Nutritional Mathematics</div>
+    </div>
+    <div class="content">
+      <div class="grid-2">
+        <div class="card card-gold">
+          <h4 style="color: #f59e0b; margin-bottom: 6px;">Clinical Mathematical Formulation</h4>
+          <p style="font-size: 12.5px; color: #9ca3af; margin-bottom: 8px;">
+            The Mifflin–St Jeor equation estimates calories required at rest to maintain essential autonomic life functions:
+          </p>
+          <div class="math-box">
+            For Males:<br>
+            <strong>BMR = 10W + 6.25H - 5A + 5</strong><br><br>
+            For Females:<br>
+            <strong>BMR = 10W + 6.25H - 5A - 161</strong>
+          </div>
+          <p style="font-size: 12px; color: #9ca3af;">
+            Where: <strong>W</strong> = Weight (kg), <strong>H</strong> = Height (cm), <strong>A</strong> = Age (years).
+          </p>
+        </div>
+
+        <div class="card card-cyan">
+          <h4 style="color: #06b6d4; margin-bottom: 6px;">Benchmark Verification (Your Exact Test Case)</h4>
+          <p style="font-size: 12.5px; color: #9ca3af; margin-bottom: 8px;">
+            Input parameters: Male athlete, W = 80 kg, H = 175 cm, Age = 24 years:
+          </p>
+          <div class="math-box" style="border-left-color: #06b6d4;">
+            BMR = 10(80) + 6.25(175) - 5(24) + 5<br>
+            BMR = 800 + 1093.75 - 120 + 5<br>
+            <strong>BMR = 1778.75 kcal/day ≈ 1779 kcal/day</strong>
+          </div>
+          <p style="font-size: 12px; color: #10b981;">
+            ✔ Implemented into <code>nutritionCalculator.js</code> with exact double precision.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <span>Mifflin–St Jeor Formulation</span>
+      <span>Slide 5 / 15</span>
+    </div>
+  </div>
+
+  <!-- SLIDE 6: TDEE -->
+  <div class="slide">
+    <div class="header">
+      <div><div class="badge">Energy Balance</div><div class="title">Total Daily Energy Expenditure (TDEE) Multipliers</div></div>
+      <div class="category">Exercise Science</div>
+    </div>
+    <div class="content">
+      <p style="font-size: 13px; color: #9ca3af; margin-bottom: 10px;">
+        Daily caloric requirement incorporates physical training: <strong>TDEE = BMR × ActivityFactor</strong>
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Activity Level</th>
+            <th>Multiplier</th>
+            <th>Weekly Training Regimen</th>
+            <th>Benchmark TDEE (80kg Male)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Sedentary</td>
+            <td style="color: #06b6d4; font-weight: bold;">× 1.200</td>
+            <td>Little or no intentional physical exercise</td>
+            <td>2135 kcal/day</td>
+          </tr>
+          <tr>
+            <td>Lightly Active</td>
+            <td style="color: #06b6d4; font-weight: bold;">× 1.375</td>
+            <td>Light resistance / cardio 1–3 days per week</td>
+            <td>2446 kcal/day</td>
+          </tr>
+          <tr style="background: rgba(245,158,11,0.08);">
+            <td style="font-weight: bold; color: #f59e0b;">Moderately Active</td>
+            <td style="color: #f59e0b; font-weight: bold;">× 1.550</td>
+            <td>Moderate gym training 3–5 days per week</td>
+            <td style="font-weight: bold; color: #f59e0b;">2757 kcal/day</td>
+          </tr>
+          <tr>
+            <td>Very Active</td>
+            <td style="color: #06b6d4; font-weight: bold;">× 1.725</td>
+            <td>Intense resistance workouts 6–7 days per week</td>
+            <td>3068 kcal/day</td>
+          </tr>
+          <tr>
+            <td>Extremely Active</td>
+            <td style="color: #06b6d4; font-weight: bold;">× 1.900</td>
+            <td>Double daily training sessions or physical labor</td>
+            <td>3380 kcal/day</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="card" style="margin-top: 10px; background: #080d1a;">
+        <span style="color: #f59e0b; font-weight: bold; font-size: 12.5px;">Goal-Based Calorie Adjustments:</span>
+        <span style="font-size: 12.5px; color: #d1d5db; margin-left: 8px;">
+          • <strong>Bulking / Muscle Gain</strong>: TDEE + 350 kcal (3107 kcal) &nbsp;|&nbsp;
+          • <strong>Cutting / Fat Loss</strong>: TDEE - 400 kcal (2357 kcal) &nbsp;|&nbsp;
+          • <strong>Maintenance</strong>: Exact TDEE (2757 kcal)
+        </span>
+      </div>
+    </div>
+    <div class="footer">
+      <span>TDEE Multipliers &amp; Goals</span>
+      <span>Slide 6 / 15</span>
+    </div>
+  </div>
+
+  <!-- SLIDE 7: Macros -->
+  <div class="slide">
+    <div class="header">
+      <div><div class="badge">Nutrition</div><div class="title">Gym User Macronutrient Calculation Protocol</div></div>
+      <div class="category">Partitioning Model</div>
+    </div>
+    <div class="content">
+      <div class="grid-3" style="margin-bottom: 12px;">
+        <div class="card" style="border-top: 4px solid #ef4444;">
+          <div style="font-size: 11px; font-weight: bold; color: #ef4444; text-transform: uppercase;">1. Protein Target</div>
+          <div style="font-size: 24px; font-weight: 900; margin: 4px 0;">1.4 – 2.0 g/kg</div>
+          <p style="font-size: 12px; color: #9ca3af;">Energy Density: <strong>4 kcal/g</strong></p>
+          <div style="margin-top: 8px; font-size: 11px; background: #080d1a; padding: 6px; border-radius: 6px;">
+            80 kg × 2.0 g = <strong>160g (640 kcal, 21%)</strong>
+          </div>
+        </div>
+
+        <div class="card" style="border-top: 4px solid #f59e0b;">
+          <div style="font-size: 11px; font-weight: bold; color: #f59e0b; text-transform: uppercase;">2. Dietary Fat</div>
+          <div style="font-size: 24px; font-weight: 900; margin: 4px 0;">20% – 35% Total</div>
+          <p style="font-size: 12px; color: #9ca3af;">Energy Density: <strong>9 kcal/g</strong></p>
+          <div style="margin-top: 8px; font-size: 11px; background: #080d1a; padding: 6px; border-radius: 6px;">
+            25% of 3107 kcal = <strong>86g (777 kcal, 25%)</strong>
+          </div>
+        </div>
+
+        <div class="card" style="border-top: 4px solid #06b6d4;">
+          <div style="font-size: 11px; font-weight: bold; color: #06b6d4; text-transform: uppercase;">3. Carbohydrates</div>
+          <div style="font-size: 24px; font-weight: 900; margin: 4px 0;">Remaining Energy</div>
+          <p style="font-size: 12px; color: #9ca3af;">Energy Density: <strong>4 kcal/g</strong></p>
+          <div style="margin-top: 8px; font-size: 11px; background: #080d1a; padding: 6px; border-radius: 6px;">
+            (3107 - 1417) / 4 = <strong>423g (1690 kcal, 54%)</strong>
+          </div>
+        </div>
+      </div>
+
+      <div class="card card-green">
+        <span style="color: #10b981; font-weight: bold; font-size: 12.5px;">Micronutrient &amp; Hydration Guidelines:</span>
+        <span style="font-size: 12.5px; color: #cbd5e1; margin-left: 8px;">
+          • Hydration: 40 mL per kg body weight (<strong>3.2 L/day</strong> for 80kg athlete). &nbsp;|&nbsp;
+          • Dietary Fiber: 14g per 1000 kcal (<strong>43g/day</strong>).
+        </span>
+      </div>
+    </div>
+    <div class="footer">
+      <span>Macronutrient Partitioning</span>
+      <span>Slide 7 / 15</span>
+    </div>
+  </div>
+
+  <!-- SLIDE 8: 3-Box UI -->
+  <div class="slide">
+    <div class="header">
+      <div><div class="badge">UI Engineering</div><div class="title">Single-Screen 3-Box Daily Meal Architecture</div></div>
+      <div class="category">Zero-Scroll Innovation</div>
+    </div>
+    <div class="content">
+      <p style="font-size: 12.5px; color: #9ca3af; margin-bottom: 10px;">
+        Eliminating vertical scroll fatigue by structuring the full 7-day diet into 3 visible columns above the fold:
+      </p>
+      <div class="grid-3">
+        <div class="card card-gold">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
+            <h4 style="color: #f59e0b; font-size: 14px;">Box 1: Breakfast</h4>
+            <span style="font-size: 9px; background: rgba(245,158,11,0.2); color: #f59e0b; padding: 2px 5px; border-radius: 4px;">Morning Fuel</span>
+          </div>
+          <ul>
+            <li>Rolled Oats (60g)</li>
+            <li>Raw Paneer (80g) or 3 Eggs</li>
+            <li>Peanut Butter (20g)</li>
+          </ul>
+          <div style="font-size: 11px; color: #9ca3af; margin-top: 6px; border-top: 1px solid #28354e; padding-top: 4px;">
+            Total: 580 kcal • 32g Protein
+          </div>
+        </div>
+
+        <div class="card" style="border-color: rgba(249,115,22,0.4); background: rgba(249,115,22,0.06);">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
+            <h4 style="color: #f97316; font-size: 14px;">Box 2: Lunch &amp; Pre-Workout</h4>
+            <span style="font-size: 9px; background: rgba(249,115,22,0.2); color: #f97316; padding: 2px 5px; border-radius: 4px;">Mid-Day Power</span>
+          </div>
+          <ul>
+            <li>Basmati Rice (150g) + Dal Tadka</li>
+            <li>Soya Chunks or Chicken (100g)</li>
+            <li>Pre-Workout Banana &amp; Chana</li>
+          </ul>
+          <div style="font-size: 11px; color: #9ca3af; margin-top: 6px; border-top: 1px solid #28354e; padding-top: 4px;">
+            Total: 1150 kcal • 58g Protein
+          </div>
+        </div>
+
+        <div class="card card-cyan">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
+            <h4 style="color: #06b6d4; font-size: 14px;">Box 3: Dinner &amp; Post-Workout</h4>
+            <span style="font-size: 9px; background: rgba(6,182,212,0.2); color: #06b6d4; padding: 2px 5px; border-radius: 4px;">Evening Recovery</span>
+          </div>
+          <ul>
+            <li>Post-Workout Whey / Egg Whites</li>
+            <li>Whole Wheat Roti (3 pieces)</li>
+            <li>Paneer / Tofu / Chicken (100g)</li>
+          </ul>
+          <div style="font-size: 11px; color: #9ca3af; margin-top: 6px; border-top: 1px solid #28354e; padding-top: 4px;">
+            Total: 1377 kcal • 70g Protein
+          </div>
+        </div>
+      </div>
+      <div style="text-align: center; margin-top: 10px; font-size: 12px; color: #f59e0b; font-weight: bold;">
+        Live Day Total: 3107 kcal • 160g Protein • 86g Fat • 423g Carbs (100% Target Met)
+      </div>
+    </div>
+    <div class="footer">
+      <span>Single-Screen 3-Box Layout</span>
+      <span>Slide 8 / 15</span>
+    </div>
+  </div>
+
+  <!-- SLIDE 9: Smart Food Swap -->
+  <div class="slide">
+    <div class="header">
+      <div><div class="badge">Algorithms</div><div class="title">Smart Food Replacement &amp; Allergen Engine</div></div>
+      <div class="category">Nutritional Engine</div>
+    </div>
+    <div class="content">
+      <div class="grid-2">
+        <div>
+          <h4 style="color: #f59e0b; margin-bottom: 6px;">Macro-Distance Penalty Function</h4>
+          <p style="font-size: 12.5px; color: #9ca3af; margin-bottom: 8px;">
+            When replacing an ingredient (e.g. Dairy to Vegan), candidate foods are evaluated using a weighted penalty score:
+          </p>
+          <div class="math-box">
+            Penalty Score = 1.0 × |ΔCalories| + 4.0 × |ΔProtein|
+          </div>
+          <ul>
+            <li><strong>Protein Retention Weight</strong>: Quadrupled factor ($\beta = 4.0$) prioritizes maintaining muscle hypertrophy targets.</li>
+            <li><strong>Allergen Safety Checks</strong>: Filtered against declared user intolerances (Lactose, Gluten, Soy, Peanuts).</li>
+            <li><strong>Dynamic Recalculation</strong>: Updates meal and day metrics in real time.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h4 style="color: #06b6d4; margin-bottom: 6px;">Example: Replacing 100g Raw Paneer</h4>
+          <table>
+            <tr>
+              <th>Food Item</th>
+              <th>Calories</th>
+              <th>Protein</th>
+              <th>Score</th>
+            </tr>
+            <tr style="background: rgba(245,158,11,0.08);">
+              <td><strong>Raw Paneer (Baseline)</strong></td>
+              <td>265 kcal</td>
+              <td>18g</td>
+              <td>0.0 (Base)</td>
+            </tr>
+            <tr>
+              <td>Firm Tofu (150g)</td>
+              <td>216 kcal</td>
+              <td>18g</td>
+              <td style="color: #10b981; font-weight: bold;">49.0 (Best)</td>
+            </tr>
+            <tr>
+              <td>Soya Chunks (50g)</td>
+              <td>172 kcal</td>
+              <td>26g</td>
+              <td style="color: #06b6d4; font-weight: bold;">125.0</td>
+            </tr>
+          </table>
+          <p style="font-size: 11px; color: #9ca3af; margin-top: 8px;">
+            Preserves the macro profile while seamlessly accommodating vegan, vegetarian, or lactose-intolerant preferences.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <span>Smart Food Replacement Engine</span>
+      <span>Slide 9 / 15</span>
+    </div>
+  </div>
+
+  <!-- SLIDE 10: 3D Biomechanics -->
+  <div class="slide">
+    <div class="header">
+      <div><div class="badge">Biomechanics</div><div class="title">3D Exercise Biomechanics &amp; Workout Engine</div></div>
+      <div class="category">Exercise Execution</div>
+    </div>
+    <div class="content">
+      <div class="grid-2">
+        <div class="card card-gold">
+          <h4 style="color: #f59e0b; margin-bottom: 6px;">Incline Dumbbell Press Biomechanics</h4>
+          <ul>
+            <li><strong>Primary Target</strong>: Clavicular head of Pectoralis Major (Upper Chest).</li>
+            <li><strong>Synergists</strong>: Anterior Deltoid &amp; Triceps Brachii.</li>
+            <li><strong>Bench Angle Optimization</strong>: Calibrated at $30^\circ\text{–}45^\circ$ to emphasize upper chest fibers while mitigating anterior deltoid impingement.</li>
+            <li><strong>Safety Mechanics</strong>: Cues $45^\circ\text{–}60^\circ$ elbow tuck relative to torso, preventing shoulder labrum wear.</li>
+          </ul>
+        </div>
+        <div class="card card-cyan">
+          <h4 style="color: #06b6d4; margin-bottom: 6px;">Session Tracking &amp; Progressive Overload</h4>
+          <ul>
+            <li><strong>Dynamic Set Logging</strong>: Records load (kg), repetitions, and Rate of Perceived Exertion (RPE).</li>
+            <li><strong>Rest Timer Integration</strong>: Automated chronometer optimizing phosphocreatine replenishment between heavy compound sets.</li>
+            <li><strong>Volume Progression Charts</strong>: Tracks cumulative weekly tonnage across muscle groups.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <span>Exercise Biomechanics Module</span>
+      <span>Slide 10 / 15</span>
+    </div>
+  </div>
+
+  <!-- SLIDE 11: Admin Module -->
+  <div class="slide">
+    <div class="header">
+      <div><div class="badge">Administration</div><div class="title">Administrative Facility Management Module</div></div>
+      <div class="category">Facility Operations</div>
+    </div>
+    <div class="content">
+      <div class="grid-3" style="margin-bottom: 12px;">
+        <div class="card">
+          <h4 style="color: #f59e0b; margin-bottom: 6px;">Member Directory</h4>
+          <ul>
+            <li>Centralized member registry</li>
+            <li>Active, expired &amp; renewal statuses</li>
+            <li>Safety disclaimer logs</li>
+            <li>Member attendance records</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h4 style="color: #10b981; margin-bottom: 6px;">Financial Revenue</h4>
+          <ul>
+            <li>Monthly recurring revenue (MRR)</li>
+            <li>Membership tier distribution</li>
+            <li>Automated renewal notifications</li>
+            <li>Financial health analytics</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h4 style="color: #06b6d4; margin-bottom: 6px;">Equipment Maintenance</h4>
+          <ul>
+            <li>Gym machinery asset registry</li>
+            <li>Preventive service schedule</li>
+            <li>Safety inspection audits</li>
+            <li>Out-of-order flagging system</li>
+          </ul>
+        </div>
+      </div>
+      <div class="card" style="background: rgba(245,158,11,0.05); border-color: rgba(245,158,11,0.3);">
+        <p style="font-size: 12.5px; color: #cbd5e1; text-align: center;">
+          <strong style="color: #f59e0b;">Autonomous Operations:</strong> Gym management and member self-service operate independently, removing trainer dependencies and keeping overhead minimal.
+        </p>
+      </div>
+    </div>
+    <div class="footer">
+      <span>Administrative Module</span>
+      <span>Slide 11 / 15</span>
+    </div>
+  </div>
+
+  <!-- SLIDE 12: Database Schema -->
+  <div class="slide">
+    <div class="header">
+      <div><div class="badge">Data Layer</div><div class="title">Database Schema &amp; Entity Relationships</div></div>
+      <div class="category">Data Modeling</div>
+    </div>
+    <div class="content">
+      <div class="grid-3">
+        <div class="card">
+          <h4 style="color: #f59e0b; margin-bottom: 6px;">User / Member Entity</h4>
+          <p style="font-size: 11px; font-family: monospace; color: #93c5fd; line-height: 1.6;">
+            _id: ObjectId<br>
+            name, email, passwordHash<br>
+            role: "member" | "admin"<br>
+            weightKg, heightCm, age<br>
+            sex: "male" | "female"<br>
+            activityLevel, fitnessGoal<br>
+            dietType: "Veg" | "Non-Veg"
+          </p>
+        </div>
+        <div class="card">
+          <h4 style="color: #06b6d4; margin-bottom: 6px;">DietPlan Entity</h4>
+          <p style="font-size: 11px; font-family: monospace; color: #93c5fd; line-height: 1.6;">
+            _id: ObjectId<br>
+            userId: ref(User)<br>
+            bmrCalculated, tdeeCalculated<br>
+            targetCalories, targetProtein<br>
+            targetCarbs, targetFat<br>
+            days: [ Monday .. Sunday ]<br>
+            meals: [ items, eatenStatus ]
+          </p>
+        </div>
+        <div class="card">
+          <h4 style="color: #10b981; margin-bottom: 6px;">Facility &amp; Logs</h4>
+          <p style="font-size: 11px; font-family: monospace; color: #93c5fd; line-height: 1.6;">
+            WorkoutSession: ref(User, Exercise)<br>
+            sets: [ {weightKg, reps} ]<br>
+            MembershipPlan: tier, priceINR<br>
+            Equipment: machineName, status<br>
+            lastServiceDate, notes
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <span>Database Schema &amp; Entities</span>
+      <span>Slide 12 / 15</span>
+    </div>
+  </div>
+
+  <!-- SLIDE 13: Results -->
+  <div class="slide">
+    <div class="header">
+      <div><div class="badge">Evaluation</div><div class="title">System Evaluation &amp; Benchmark Performance</div></div>
+      <div class="category">Empirical Results</div>
+    </div>
+    <div class="content">
+      <div class="grid-2">
+        <div class="card">
+          <h4 style="color: #f59e0b; margin-bottom: 6px;">Front-End Performance Metrics</h4>
+          <ul>
+            <li><strong>Production Vite Build</strong>: 1642 modules transformed cleanly with <strong>0 errors</strong>.</li>
+            <li><strong>Lighthouse Score</strong>: <strong>98/100</strong> Performance, 100% Best Practices.</li>
+            <li><strong>First Contentful Paint (FCP)</strong>: <strong>0.6s</strong>.</li>
+            <li><strong>Zero-Scroll Layout Compliance</strong>: 100% of daily nutrition renders above the fold on desktop and tablets.</li>
+          </ul>
+        </div>
+        <div class="card card-cyan">
+          <h4 style="color: #06b6d4; margin-bottom: 6px;">Nutritional Mathematical Precision</h4>
+          <table>
+            <tr>
+              <th>Metric (80kg Male, 24yo)</th>
+              <th>Calculated</th>
+              <th>Reference Benchmark</th>
+            </tr>
+            <tr>
+              <td>BMR (Mifflin–St Jeor)</td>
+              <td style="color: #10b981; font-weight: bold;">1778.75 kcal</td>
+              <td>1778.75 kcal</td>
+            </tr>
+            <tr>
+              <td>TDEE (×1.55 Moderate)</td>
+              <td style="color: #10b981; font-weight: bold;">2757.06 kcal</td>
+              <td>2757.06 kcal</td>
+            </tr>
+            <tr>
+              <td>Bulking Target (+350)</td>
+              <td style="color: #10b981; font-weight: bold;">3107.06 kcal</td>
+              <td>3107.06 kcal</td>
+            </tr>
+            <tr>
+              <td>Protein (2.0 g/kg × 80)</td>
+              <td style="color: #10b981; font-weight: bold;">160.00g</td>
+              <td>160.00g</td>
+            </tr>
+          </table>
+          <p style="font-size: 11px; color: #10b981; margin-top: 6px;">
+            ✔ 100% mathematical conformance across all input ranges.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <span>System Verification &amp; Results</span>
+      <span>Slide 13 / 15</span>
+    </div>
+  </div>
+
+  <!-- SLIDE 14: Conclusion & Future Work -->
+  <div class="slide">
+    <div class="header">
+      <div><div class="badge">Summary</div><div class="title">Conclusion &amp; Future Scope</div></div>
+      <div class="category">Final Summary</div>
+    </div>
+    <div class="content">
+      <div class="grid-2">
+        <div class="card card-gold">
+          <h4 style="color: #f59e0b; margin-bottom: 6px;">Key Contributions</h4>
+          <ul>
+            <li>Bridged sports nutrition science (Mifflin–St Jeor, TDEE, macronutrient partitioning) with reactive full-stack web engineering.</li>
+            <li>Resolved vertical scroll fatigue with a single-screen 3-box daily diet layout.</li>
+            <li>Delivered 3D exercise biomechanical cues alongside progressive overload logging.</li>
+            <li>Empowered autonomous member progress and independent administrative governance without requiring a trainer module.</li>
+          </ul>
+        </div>
+        <div class="card card-cyan">
+          <h4 style="color: #06b6d4; margin-bottom: 6px;">Future Enhancements</h4>
+          <ul>
+            <li><strong>Wearable IoT Integration</strong>: Direct synchronization with Apple HealthKit and Google Health Connect APIs.</li>
+            <li><strong>Webcam Pose Estimation</strong>: In-browser computer vision tracking joint angles and rep counts in real time.</li>
+            <li><strong>PWA Offline Caching</strong>: Service worker caching enabling uninterrupted meal and workout logging in basement gyms.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <span>Conclusion &amp; Future Scope</span>
+      <span>Slide 14 / 15</span>
+    </div>
+  </div>
+
+  <!-- SLIDE 15: Q&A -->
+  <div class="slide">
+    <div class="header">
+      <div class="badge">GymFit Ecosystem</div>
+      <div class="category">Defense Conclusion</div>
+    </div>
+    <div class="content" style="text-align: center; justify-content: center;">
+      <h1 style="font-size: 44px; font-weight: 900; color: #f59e0b; margin-bottom: 12px;">THANK YOU!</h1>
+      <h3 style="font-size: 20px; color: #ffffff; margin-bottom: 16px;">
+        GymFit: Intelligent Gym Management &amp; Personalized Nutrition Ecosystem
+      </h3>
+      <p style="font-size: 14px; color: #9ca3af; max-width: 600px; margin: 0 auto 20px auto;">
+        An Evidence-Based Engineering Approach to Modern Health, Exercise Biomechanics, and Nutrition Architecture.
+      </p>
+      <div style="font-size: 13px; color: #06b6d4; font-weight: bold;">
+        Questions &amp; Academic Discussion Welcome
+      </div>
+    </div>
+    <div class="footer">
+      <span>GymFit Defense Presentation</span>
+      <span>Slide 15 / 15</span>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+graph LR
+    %% User Roles & Access Hierarchy
+    subgraph Roles["System Roles"]
+        PA["1. Platform Admin<br/>(Global SaaS Operator)"]
+        GO["2. Gym Owner<br/>(Tenant Business Authority)"]
+        TR["3. Trainer<br/>(Coach / Staff)"]
+        MB["4. Member<br/>(Athletic End-User)"]
+    end
+
+    subgraph PlatformScope["Platform Admin Scope"]
+        PA1["Provision & Suspend Gym Tenants"]
+        PA2["Manage SaaS Pricing Plans"]
+        PA3["Global Platform Analytics & MRR"]
+    end
+
+    subgraph OwnerScope["Gym Owner Scope"]
+        GO1["Manage Gym Info & Branches"]
+        GO2["Define Membership Plans & Fees"]
+        GO3["Onboard Staff & Members"]
+        GO4["Monitor Attendance & Live Occupancy"]
+        GO5["Financial Invoicing & Revenue Analytics"]
+    end
+
+    subgraph TrainerScope["Trainer Scope"]
+        TR1["View Assigned Member Clients"]
+        TR2["Design & Assign Workout Splits"]
+        TR3["Assign Macronutrient & Diet Plans"]
+        TR4["Instruct Group Classes & Mark Attendance"]
+        TR5["Review Client Progress & PRs"]
+    end
+
+    subgraph MemberScope["Member Scope"]
+        MB1["Dynamic QR Digital Pass Check-in"]
+        MB2["Log Workout Sessions, Sets & Reps"]
+        MB3["Track Diet, Calories & Macros"]
+        MB4["Record Body Measurements & Photos"]
+        MB5["Book & Cancel Group Classes"]
+    end
+
+    %% Role to Scope mapping
+    PA --> PA1
+    PA --> PA2
+    PA --> PA3
+
+    GO --> GO1
+    GO --> GO2
+    GO --> GO3
+    GO --> GO4
+    GO --> GO5
+
+    TR --> TR1
+    TR --> TR2
+    TR --> TR3
+    TR --> TR4
+    TR --> TR5
+
+    MB --> MB1
+    MB --> MB2
+    MB --> MB3
+    MB --> MB4
+    MB --> MB5

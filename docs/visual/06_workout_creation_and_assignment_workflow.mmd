@@ -1,0 +1,33 @@
+flowchart TD
+    Start([Trainer / Owner Initiates Workout Creation]) --> OpenBuilder[Open Workout Routine Builder UI]
+    
+    OpenBuilder --> DefineMeta[Define Routine Metadata: Title, Goal, Duration Weeks]
+    DefineMeta --> AddDays[Add Training Days e.g. Day 1: Chest & Triceps]
+    
+    AddDays --> SelectEx[Search & Add Exercises from Catalog]
+    SelectEx --> CustomEx{Exercise Missing in Catalog?}
+    CustomEx -->|Yes| CreateEx[Create Gym-Custom Exercise with Instructions]
+    CreateEx --> SelectEx
+    CustomEx -->|No| ConfigureSets[Configure Sets, Target Reps, RPE & Rest Seconds]
+    
+    ConfigureSets --> MoreEx{Add More Exercises to Day?}
+    MoreEx -->|Yes| SelectEx
+    MoreEx -->|No| MoreDays{Add More Days to Routine?}
+    MoreDays -->|Yes| AddDays
+    MoreDays -->|No| TargetChoice{Assignment Target?}
+    
+    TargetChoice -->|Reusable Template| SaveTemplate[Save as General Gym Template member_id = NULL]
+    TargetChoice -->|Specific Client| SelectClient[Select Assigned Member from Client Roster]
+    
+    SelectClient --> AssignPlan[Save Plan with member_profile_id & gym_id]
+    SaveTemplate --> PersistDB[(Save to MySQL via WorkoutService)]
+    AssignPlan --> PersistDB
+    
+    PersistDB --> NotifyMember[Member Notified in App: New Plan Available]
+    NotifyMember --> MemberOpens[Member Opens Routine in Fitness Portal]
+    MemberOpens --> MemberLogs[Member Logs Completed Sets, Weights & Reps]
+    MemberLogs --> PRCheck{Personal Record Broken?}
+    PRCheck -->|Yes| FlagPR[Flag Set as is_pr = TRUE & Celebrate]
+    PRCheck -->|No| SaveLog[Save Set Log to DB]
+    FlagPR --> SaveLog
+    SaveLog --> Complete([Workout Session Saved & Analytics Updated])

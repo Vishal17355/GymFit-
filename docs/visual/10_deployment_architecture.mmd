@@ -1,0 +1,38 @@
+graph TD
+    %% Production Deployment Architecture Diagram
+    subgraph Clients["Clients & Devices"]
+        MobileClient["Mobile Browsers / PWA<br/>(Members)"]
+        DesktopClient["Desktop Browsers<br/>(Gym Owners, Staff, Admins)"]
+        ScannerDevice["Front-Desk Tablet / QR Scanner<br/>(Attendance)"]
+    end
+
+    subgraph EdgeLayer["Edge & Security Layer (Cloudflare / Reverse Proxy)"]
+        CF["Cloudflare CDN / WAF<br/>- HTTPS / TLS 1.3 Termination<br/>- DDoS Mitigation & Edge Caching"]
+    end
+
+    subgraph WebServerTier["Static Web Server Tier (Nginx Container)"]
+        Nginx["Nginx Web Server<br/>- Serves React SPA (Static HTML/JS/CSS)<br/>- Reverse Proxies /api/* to Backend"]
+    end
+
+    subgraph AppServerTier["Application Tier (Spring Boot Container)"]
+        direction TB
+        App1["GymFit Spring Boot App Instance<br/>- Eclipse Temurin JDK 21<br/>- Modular Monolith Runtime<br/>- Port 8080"]
+    end
+
+    subgraph DatabaseTier["Persistence Tier (Managed Cloud MySQL 8.x)"]
+        PrimaryDB[("Primary MySQL 8.x (InnoDB)<br/>- Master Read / Write<br/>- Automated Daily Snapshots")]
+        ReplicaDB[("Read Replica MySQL 8.x<br/>- Read-Only Analytics & Reporting<br/>- Failover Standby")]
+    end
+
+    %% Network Connections
+    MobileClient -->|HTTPS Port 443| CF
+    DesktopClient -->|HTTPS Port 443| CF
+    ScannerDevice -->|HTTPS Port 443| CF
+
+    CF -->|Static Assets| Nginx
+    CF -->|API Traffic /api/v1/*| Nginx
+    Nginx -->|Proxy Pass :8080| App1
+
+    App1 -->|JDBC Write Connection Pool (HikariCP)| PrimaryDB
+    App1 -.->|Read-Only Queries (Analytics)| ReplicaDB
+    PrimaryDB -.->|Binary Log Replication| ReplicaDB

@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" width="100%" height="100%">
+  <defs>
+    <style>
+      .title { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 20px; font-weight: bold; fill: #1e293b; }
+      .subtitle { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; fill: #64748b; }
+      .box-label { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 600; }
+      .box-desc { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 11px; fill: #475569; }
+      .section-title { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: bold; fill: #334155; text-transform: uppercase; letter-spacing: 0.05em; }
+      .arrow-text { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 11px; fill: #0284c7; font-weight: 500; }
+      .mono { font-family: Consolas, 'Courier New', monospace; font-size: 11px; }
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#0284c7" />
+    </marker>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#10b981" />
+    </marker>
+    <marker id="arrow-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#94a3b8" />
+    </marker>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#0f172a" flood-opacity="0.08" />
+    </filter>
+  </defs>
+
+  <rect width="100%" height="100%" fill="#f8fafc" rx="8" />
+  
+  <rect x="0" y="0" width="1000" height="64" fill="#ffffff" rx="8" />
+  <line x1="0" y1="64" x2="1000" y2="64" stroke="#e2e8f0" stroke-width="1.5" />
+  <circle cx="36" cy="32" r="14" fill="#3b82f6" />
+  <text x="36" y="37" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="bold" fill="#ffffff">G</text>
+  <text x="64" y="30" class="title">GymFit &bull; Database Entity Relationships (Core Schema)</text>
+  <text x="64" y="48" class="subtitle">Multi-Gym Fitness Tracking &amp; Gym Management SaaS Platform</text>
+
+  
+  <rect x="40" y="90" width="280" height="150" rx="8" fill="#eff6ff" stroke="#93c5fd" />
+  <text x="55" y="112" class="section-title" fill="#1d4ed8">Organization &amp; Tenancy</text>
+  <rect x="55" y="125" width="115" height="100" rx="4" fill="#ffffff" stroke="#bfdbfe" />
+  <text x="65" y="145" class="box-label">saas_plans</text>
+  <text x="65" y="162" class="mono">id (PK)</text>
+  <text x="65" y="177" class="mono">tier_code</text>
+  <text x="65" y="192" class="mono">max_members</text>
+  <text x="65" y="207" class="mono">price</text>
+
+  <rect x="185" y="125" width="120" height="100" rx="4" fill="#ffffff" stroke="#bfdbfe" />
+  <text x="195" y="145" class="box-label">gyms</text>
+  <text x="195" y="162" class="mono">id (PK)</text>
+  <text x="195" y="177" class="mono">slug (UK)</text>
+  <text x="195" y="192" class="mono">saas_plan_id (FK)</text>
+  <text x="195" y="207" class="mono">status</text>
+
+  <rect x="360" y="90" width="280" height="150" rx="8" fill="#fdf2f8" stroke="#fbcfe8" />
+  <text x="375" y="112" class="section-title" fill="#be185d">Users &amp; Profiles</text>
+  
+  <rect x="375" y="125" width="115" height="100" rx="4" fill="#ffffff" stroke="#fbcfe8" />
+  <text x="385" y="145" class="box-label">users</text>
+  <text x="385" y="162" class="mono">id (PK)</text>
+  <text x="385" y="177" class="mono">gym_id (FK)</text>
+  <text x="385" y="192" class="mono">email (UK)</text>
+  <text x="385" y="207" class="mono">role_code</text>
+
+  <rect x="505" y="125" width="120" height="100" rx="4" fill="#ffffff" stroke="#fbcfe8" />
+  <text x="515" y="145" class="box-label">member_profiles</text>
+  <text x="515" y="162" class="mono">id (PK)</text>
+  <text x="515" y="177" class="mono">user_id (FK, UK)</text>
+  <text x="515" y="192" class="mono">qr_code_hash</text>
+  <text x="515" y="207" class="mono">gym_id (FK)</text>
+
+  <rect x="680" y="90" width="280" height="150" rx="8" fill="#f0fdf4" stroke="#bbf7d0" />
+  <text x="695" y="112" class="section-title" fill="#15803d">Attendance &amp; Access</text>
+
+  <rect x="695" y="125" width="120" height="100" rx="4" fill="#ffffff" stroke="#bbf7d0" />
+  <text x="705" y="145" class="box-label">attendances</text>
+  <text x="705" y="162" class="mono">id (PK)</text>
+  <text x="705" y="177" class="mono">gym_id (FK)</text>
+  <text x="705" y="192" class="mono">member_id (FK)</text>
+  <text x="705" y="207" class="mono">check_in_time</text>
+
+  <rect x="830" y="125" width="115" height="100" rx="4" fill="#ffffff" stroke="#bbf7d0" />
+  <text x="840" y="145" class="box-label">classes</text>
+  <text x="840" y="162" class="mono">id (PK)</text>
+  <text x="840" y="177" class="mono">trainer_id (FK)</text>
+  <text x="840" y="192" class="mono">capacity</text>
+  <text x="840" y="207" class="mono">start_time</text>
+
+  <rect x="40" y="280" width="920" height="230" rx="8" fill="#f8fafc" stroke="#cbd5e1" />
+  <text x="55" y="305" class="section-title" fill="#334155">Fitness &amp; Workout Engine Entities</text>
+
+  <rect x="55" y="325" width="160" height="160" rx="4" fill="#ffffff" stroke="#cbd5e1" />
+  <text x="65" y="348" class="box-label">exercises</text>
+  <text x="65" y="370" class="mono">id (PK)</text>
+  <text x="65" y="390" class="mono">gym_id (FK, Nullable)</text>
+  <text x="65" y="410" class="mono">name</text>
+  <text x="65" y="430" class="mono">muscle_group</text>
+  <text x="65" y="450" class="mono">equipment</text>
+
+  <line x1="215" y1="400" x2="245" y2="400" stroke="#0284c7" stroke-width="1.5" />
+
+  <rect x="245" y="325" width="160" height="160" rx="4" fill="#ffffff" stroke="#cbd5e1" />
+  <text x="255" y="348" class="box-label">workout_plans</text>
+  <text x="255" y="370" class="mono">id (PK)</text>
+  <text x="255" y="390" class="mono">gym_id (FK)</text>
+  <text x="255" y="410" class="mono">member_id (FK)</text>
+  <text x="255" y="430" class="mono">title</text>
+  <text x="255" y="450" class="mono">goal</text>
+
+  <line x1="405" y1="400" x2="435" y2="400" stroke="#0284c7" stroke-width="1.5" />
+
+  <rect x="435" y="325" width="160" height="160" rx="4" fill="#ffffff" stroke="#cbd5e1" />
+  <text x="445" y="348" class="box-label">workout_plan_days</text>
+  <text x="445" y="370" class="mono">id (PK)</text>
+  <text x="445" y="390" class="mono">workout_plan_id (FK)</text>
+  <text x="445" y="410" class="mono">day_number</text>
+  <text x="445" y="430" class="mono">day_name</text>
+
+  <line x1="595" y1="400" x2="625" y2="400" stroke="#0284c7" stroke-width="1.5" />
+
+  <rect x="625" y="325" width="160" height="160" rx="4" fill="#ffffff" stroke="#cbd5e1" />
+  <text x="635" y="348" class="box-label">workout_logs</text>
+  <text x="635" y="370" class="mono">id (PK)</text>
+  <text x="635" y="390" class="mono">gym_id (FK)</text>
+  <text x="635" y="410" class="mono">member_id (FK)</text>
+  <text x="635" y="430" class="mono">log_date</text>
+  <text x="635" y="450" class="mono">duration_minutes</text>
+
+  <line x1="785" y1="400" x2="815" y2="400" stroke="#0284c7" stroke-width="1.5" />
+
+  <rect x="815" y="325" width="130" height="160" rx="4" fill="#ffffff" stroke="#cbd5e1" />
+  <text x="825" y="348" class="box-label">workout_set_logs</text>
+  <text x="825" y="370" class="mono">id (PK)</text>
+  <text x="825" y="390" class="mono">exercise_id (FK)</text>
+  <text x="825" y="410" class="mono">weight_kg</text>
+  <text x="825" y="430" class="mono">reps_completed</text>
+  <text x="825" y="450" class="mono">is_pr (BOOLEAN)</text>
+
+  <rect x="40" y="535" width="445" height="150" rx="8" fill="#fefce8" stroke="#fef08a" />
+  <text x="55" y="560" class="section-title" fill="#a16207">Memberships &amp; Financials</text>
+  <text x="55" y="585" class="box-desc">&bull; membership_plans (price, duration_days, renewal_type)</text>
+  <text x="55" y="610" class="box-desc">&bull; member_memberships (status: ACTIVE, EXPIRED, FROZEN)</text>
+  <text x="55" y="635" class="box-desc">&bull; payments (amount, payment_status, transaction_reference)</text>
+  <text x="55" y="660" class="box-desc">&bull; Multi-Tenant Key: All membership &amp; payment records bound to gym_id</text>
+
+  <rect x="515" y="535" width="445" height="150" rx="8" fill="#faf5ff" stroke="#e9d5ff" />
+  <text x="530" y="560" class="section-title" fill="#7e22ce">Nutrition &amp; Progress Metrics</text>
+  <text x="530" y="585" class="box-desc">&bull; nutrition_plans (daily_calories, protein, carbs, fats, notes)</text>
+  <text x="530" y="610" class="box-desc">&bull; body_metrics (weight_kg, body_fat_pct, muscle_mass, measurements)</text>
+  <text x="530" y="635" class="box-desc">&bull; Time-series historical tracking with chronological date indexing</text>
+  <text x="530" y="660" class="box-desc">&bull; Accessible by Member (Self) and assigned Trainer (Client relation)</text>
+
+</svg>

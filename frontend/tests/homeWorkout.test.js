@@ -1,0 +1,5 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {clockText,nextSet,allowedExercise} from '../src/pages/HomeWorkout/workoutUtils.js';
+test('session display formats time and finds unlogged sets without losing earlier logs',()=>{assert.equal(clockText(125),'2:05');const p={exerciseId:'squat',sets:3};assert.equal(nextSet(p,[{exerciseId:'squat',setNumber:1},{exerciseId:'squat',setNumber:3}]),2);assert.equal(nextSet({...p,sets:1},[{exerciseId:'squat',setNumber:1}]),null);});
+test('workout alternatives require every equipment item and respect restrictions',()=>{const profile={level:'BEGINNER',equipment:['DUMBBELLS'],limitations:[],lowImpact:true,discomfortExercises:[]};const e={id:'row',difficulty:'BEGINNER',equipment:['DUMBBELLS'],limitationTags:['BACK']};assert.equal(allowedExercise(e,profile),true);assert.equal(allowedExercise({...e,equipment:['DUMBBELLS','BENCH']},profile),false);assert.equal(allowedExercise({...e,difficulty:'ADVANCED'},profile),false);assert.equal(allowedExercise(e,{...profile,limitations:['BACK']}),false);assert.equal(allowedExercise({...e,limitationTags:['JUMPING']},profile),false);});

@@ -1,0 +1,34 @@
+sequenceDiagram
+    autonumber
+    actor Member as Member / Front Desk
+    participant UI as GymFit Frontend
+    participant MemService as MembershipService
+    participant PayService as PaymentService
+    participant EventBus as Spring Event Bus
+    participant DB as MySQL Database
+
+    Note over Member, UI: 1. Membership Selection
+    Member->>UI: Selects Membership Plan (e.g., 3-Month Gold Plan)
+    UI->>MemService: POST /api/v1/members/{id}/memberships (planId, duration, amount)
+
+    Note over MemService, DB: 2. Creation of Subscription Record
+    MemService->>DB: Query MembershipPlan by planId & current gym_id
+    DB-->>MemService: Return Plan Details (price, durationDays)
+    MemService->>DB: Create member_membership record (status = PENDING_PAYMENT)
+    DB-->>MemService: Return membershipId
+
+    Note over MemService, PayService: 3. Payment Processing
+    MemService->>PayService: Initiate Payment (amount, paymentMethod: CASH / CARD / UPI)
+    PayService->>DB: Insert into payments (amount, transaction_reference, status = COMPLETED)
+    DB-->>PayService: Payment Record Created
+
+    Note over PayService, MemService: 4. Activation of Membership
+    PayService-->>MemService: Payment Confirmed
+    MemService->>DB: Update member_membership (status = ACTIVE, start_date = TODAY, end_date = TODAY + durationDays)
+    MemService->>DB: Update member_profile (regenerate / activate qr_code_hash)
+    
+    Note over MemService, EventBus: 5. Domain Event & Digital Pass
+    MemService->>EventBus: Publish MembershipActivatedEvent
+    EventBus-->>UI: Push real-time pass update
+    MemService-->>UI: Return 201 Created (Active Membership + Valid Digital Pass)
+    UI-->>Member: Display Active Membership Badge & Instant QR Pass

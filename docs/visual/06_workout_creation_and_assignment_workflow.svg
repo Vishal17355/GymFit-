@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 680" width="100%" height="100%">
+  <defs>
+    <style>
+      .title { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 20px; font-weight: bold; fill: #1e293b; }
+      .subtitle { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; fill: #64748b; }
+      .box-label { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 600; }
+      .box-desc { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 11px; fill: #475569; }
+      .section-title { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: bold; fill: #334155; text-transform: uppercase; letter-spacing: 0.05em; }
+      .arrow-text { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 11px; fill: #0284c7; font-weight: 500; }
+      .mono { font-family: Consolas, 'Courier New', monospace; font-size: 11px; }
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#0284c7" />
+    </marker>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#10b981" />
+    </marker>
+    <marker id="arrow-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#94a3b8" />
+    </marker>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#0f172a" flood-opacity="0.08" />
+    </filter>
+  </defs>
+
+  <rect width="100%" height="100%" fill="#f8fafc" rx="8" />
+  
+  <rect x="0" y="0" width="1000" height="64" fill="#ffffff" rx="8" />
+  <line x1="0" y1="64" x2="1000" y2="64" stroke="#e2e8f0" stroke-width="1.5" />
+  <circle cx="36" cy="32" r="14" fill="#3b82f6" />
+  <text x="36" y="37" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="bold" fill="#ffffff">G</text>
+  <text x="64" y="30" class="title">GymFit &bull; Workout Creation, Assignment & Execution</text>
+  <text x="64" y="48" class="subtitle">Multi-Gym Fitness Tracking &amp; Gym Management SaaS Platform</text>
+
+  
+  <rect x="40" y="90" width="210" height="130" rx="8" fill="#ffffff" stroke="#cbd5e1" filter="url(#shadow)" />
+  <text x="145" y="115" text-anchor="middle" class="box-label" fill="#0284c7">Step 1: Routine Design</text>
+  <text x="145" y="138" text-anchor="middle" class="box-desc">Trainer opens builder</text>
+  <text x="145" y="155" text-anchor="middle" class="box-desc">Defines Title &amp; Goal</text>
+  <text x="145" y="172" text-anchor="middle" class="box-desc">Configures Split Days</text>
+  <text x="145" y="189" text-anchor="middle" class="box-desc">(e.g., Push / Pull / Legs)</text>
+
+  <line x1="250" y1="155" x2="275" y2="155" stroke="#0284c7" stroke-width="2" marker-end="url(#arrow)" />
+
+  <rect x="280" y="90" width="210" height="130" rx="8" fill="#ffffff" stroke="#cbd5e1" filter="url(#shadow)" />
+  <text x="385" y="115" text-anchor="middle" class="box-label" fill="#0284c7">Step 2: Exercise Config</text>
+  <text x="385" y="138" text-anchor="middle" class="box-desc">Searches catalog</text>
+  <text x="385" y="155" text-anchor="middle" class="box-desc">Adds Bench, Squats, etc.</text>
+  <text x="385" y="172" text-anchor="middle" class="box-desc">Sets Reps, Load, RPE</text>
+  <text x="385" y="189" text-anchor="middle" class="box-desc">Sets Rest Intervals (secs)</text>
+
+  <line x1="490" y1="155" x2="515" y2="155" stroke="#0284c7" stroke-width="2" marker-end="url(#arrow)" />
+
+  <rect x="520" y="90" width="210" height="130" rx="8" fill="#ffffff" stroke="#cbd5e1" filter="url(#shadow)" />
+  <text x="625" y="115" text-anchor="middle" class="box-label" fill="#0284c7">Step 3: Assignment</text>
+  <text x="625" y="138" text-anchor="middle" class="box-desc">Selects Target:</text>
+  <text x="625" y="155" text-anchor="middle" class="box-desc">&bull; Reusable Gym Template</text>
+  <text x="625" y="172" text-anchor="middle" class="box-desc">&bull; Specific Member Client</text>
+  <text x="625" y="189" text-anchor="middle" class="box-desc">Saved with gym_id</text>
+
+  <line x1="730" y1="155" x2="755" y2="155" stroke="#0284c7" stroke-width="2" marker-end="url(#arrow)" />
+
+  <rect x="760" y="90" width="200" height="130" rx="8" fill="#ecfdf5" stroke="#10b981" filter="url(#shadow)" />
+  <text x="860" y="115" text-anchor="middle" class="box-label" fill="#047857">Step 4: Active Logging</text>
+  <text x="860" y="138" text-anchor="middle" class="box-desc">Member opens routine</text>
+  <text x="860" y="155" text-anchor="middle" class="box-desc">Logs Actual Weights &amp; Reps</text>
+  <text x="860" y="172" text-anchor="middle" class="box-desc">Automated PR Detection</text>
+  <text x="860" y="189" text-anchor="middle" class="box-desc">Stores in workout_set_logs</text>
+
+  <rect x="40" y="260" width="920" height="380" rx="8" fill="#ffffff" stroke="#e2e8f0" />
+  <text x="60" y="290" class="section-title">Execution Detail: Member Logging a Session</text>
+  
+  <rect x="60" y="310" width="410" height="90" rx="6" fill="#f8fafc" stroke="#cbd5e1" />
+  <text x="80" y="335" class="box-label">Set 1: Barbell Bench Press</text>
+  <text x="80" y="355" class="box-desc">Target: 10 reps @ 80 kg &bull; Rest: 90s</text>
+  <text x="80" y="375" class="box-desc">Member Logged: 10 reps @ 80 kg &bull; Completed</text>
+
+  <rect x="510" y="310" width="410" height="90" rx="6" fill="#f8fafc" stroke="#cbd5e1" />
+  <text x="530" y="335" class="box-label">Set 2: Barbell Bench Press</text>
+  <text x="530" y="355" class="box-desc">Target: 8 reps @ 85 kg &bull; Rest: 90s</text>
+  <text x="530" y="375" class="box-desc">Member Logged: 8 reps @ 87.5 kg &bull; NEW PR! &#127942;</text>
+
+  <rect x="60" y="420" width="860" height="190" rx="6" fill="#eff6ff" stroke="#bfdbfe" />
+  <text x="80" y="445" class="section-title" fill="#1d4ed8">Backend Data Processing &amp; Analytics Trigger</text>
+  <text x="80" y="475" class="box-desc">1. WorkoutLogService verifies member profile ownership and active gym context.</text>
+  <text x="80" y="500" class="box-desc">2. Compares logged weight against historical max weight for this exercise to set is_pr = TRUE.</text>
+  <text x="80" y="525" class="box-desc">3. Persists record in workout_set_logs with foreign keys to workout_log_id and exercise_id.</text>
+  <text x="80" y="550" class="box-desc">4. Updates trainer progress dashboard in real-time, displaying member compliance and PR milestones.</text>
+
+</svg>

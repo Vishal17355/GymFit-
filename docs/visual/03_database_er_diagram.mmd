@@ -1,0 +1,222 @@
+erDiagram
+    SAAS_PLANS ||--o{ GYMS : "subscribes"
+    GYMS ||--o{ GYM_BRANCHES : "operates"
+    GYMS ||--o{ USERS : "contains"
+    GYMS ||--o{ MEMBERSHIP_PLANS : "offers"
+    GYMS ||--o{ EXERCISES : "owns"
+
+    USERS ||--o| MEMBER_PROFILES : "has"
+    USERS ||--o| TRAINER_PROFILES : "has"
+
+    GYM_BRANCHES ||--o{ ATTENDANCES : "hosts"
+    GYM_BRANCHES ||--o{ CLASSES : "schedules"
+
+    MEMBER_PROFILES ||--o{ MEMBER_MEMBERSHIPS : "holds"
+    MEMBERSHIP_PLANS ||--o{ MEMBER_MEMBERSHIPS : "defines"
+    MEMBER_MEMBERSHIPS ||--o{ PAYMENTS : "billed_by"
+
+    MEMBER_PROFILES ||--o{ ATTENDANCES : "records"
+    MEMBER_PROFILES ||--o{ CLASS_BOOKINGS : "books"
+    CLASSES ||--o{ CLASS_BOOKINGS : "attends"
+
+    TRAINER_PROFILES ||--o{ TRAINER_CLIENTS : "mentors"
+    MEMBER_PROFILES ||--o{ TRAINER_CLIENTS : "guided_by"
+    TRAINER_PROFILES ||--o{ CLASSES : "teaches"
+
+    MEMBER_PROFILES ||--o{ WORKOUT_PLANS : "assigned"
+    WORKOUT_PLANS ||--o{ WORKOUT_PLAN_DAYS : "contains"
+    WORKOUT_PLAN_DAYS ||--o{ WORKOUT_PLAN_EXERCISES : "lists"
+    EXERCISES ||--o{ WORKOUT_PLAN_EXERCISES : "referenced_in"
+
+    MEMBER_PROFILES ||--o{ WORKOUT_LOGS : "logs"
+    WORKOUT_LOGS ||--o{ WORKOUT_SET_LOGS : "details"
+    EXERCISES ||--o{ WORKOUT_SET_LOGS : "performed_in"
+
+    MEMBER_PROFILES ||--o{ NUTRITION_PLANS : "follows"
+    MEMBER_PROFILES ||--o{ BODY_METRICS : "tracks"
+
+    SAAS_PLANS {
+        bigint id PK
+        varchar name
+        varchar tier_code
+        decimal monthly_price
+        int max_branches
+        int max_members
+        int max_trainers
+    }
+
+    GYMS {
+        bigint id PK
+        varchar name
+        varchar slug UK
+        varchar contact_email
+        bigint saas_plan_id FK
+        varchar saas_status
+    }
+
+    GYM_BRANCHES {
+        bigint id PK
+        bigint gym_id FK
+        varchar name
+        varchar address
+        varchar phone
+    }
+
+    USERS {
+        bigint id PK
+        bigint gym_id FK
+        varchar email UK
+        varchar password_hash
+        varchar role_code
+        boolean is_active
+    }
+
+    MEMBER_PROFILES {
+        bigint id PK
+        bigint user_id FK
+        bigint gym_id FK
+        bigint primary_branch_id FK
+        varchar membership_number UK
+        varchar qr_code_hash UK
+    }
+
+    TRAINER_PROFILES {
+        bigint id PK
+        bigint user_id FK
+        bigint gym_id FK
+        varchar specialization
+        decimal hourly_rate
+    }
+
+    MEMBERSHIP_PLANS {
+        bigint id PK
+        bigint gym_id FK
+        varchar name
+        int duration_days
+        decimal price
+    }
+
+    MEMBER_MEMBERSHIPS {
+        bigint id PK
+        bigint member_profile_id FK
+        bigint gym_id FK
+        bigint membership_plan_id FK
+        date start_date
+        date end_date
+        varchar status
+    }
+
+    PAYMENTS {
+        bigint id PK
+        bigint gym_id FK
+        bigint member_membership_id FK
+        decimal amount
+        varchar payment_status
+        datetime paid_at
+    }
+
+    ATTENDANCES {
+        bigint id PK
+        bigint gym_id FK
+        bigint branch_id FK
+        bigint member_profile_id FK
+        datetime check_in_time
+        datetime check_out_time
+    }
+
+    CLASSES {
+        bigint id PK
+        bigint gym_id FK
+        bigint branch_id FK
+        bigint trainer_profile_id FK
+        varchar name
+        int capacity
+        datetime start_time
+    }
+
+    CLASS_BOOKINGS {
+        bigint id PK
+        bigint gym_id FK
+        bigint class_id FK
+        bigint member_profile_id FK
+        varchar booking_status
+        boolean checked_in
+    }
+
+    TRAINER_CLIENTS {
+        bigint id PK
+        bigint gym_id FK
+        bigint trainer_profile_id FK
+        bigint member_profile_id FK
+        date assigned_date
+    }
+
+    EXERCISES {
+        bigint id PK
+        bigint gym_id FK
+        varchar name
+        varchar muscle_group
+        varchar equipment
+    }
+
+    WORKOUT_PLANS {
+        bigint id PK
+        bigint gym_id FK
+        bigint created_by_user_id FK
+        bigint member_profile_id FK
+        varchar title
+        varchar goal
+    }
+
+    WORKOUT_PLAN_DAYS {
+        bigint id PK
+        bigint workout_plan_id FK
+        int day_number
+        varchar day_name
+    }
+
+    WORKOUT_PLAN_EXERCISES {
+        bigint id PK
+        bigint workout_plan_day_id FK
+        bigint exercise_id FK
+        int sets
+        int reps_target
+        int rest_seconds
+    }
+
+    WORKOUT_LOGS {
+        bigint id PK
+        bigint gym_id FK
+        bigint member_profile_id FK
+        date log_date
+        int duration_minutes
+    }
+
+    WORKOUT_SET_LOGS {
+        bigint id PK
+        bigint workout_log_id FK
+        bigint exercise_id FK
+        int set_number
+        decimal weight_kg
+        int reps_completed
+        boolean is_pr
+    }
+
+    NUTRITION_PLANS {
+        bigint id PK
+        bigint gym_id FK
+        bigint member_profile_id FK
+        int daily_calories
+        int protein_grams
+        int carbs_grams
+        int fats_grams
+    }
+
+    BODY_METRICS {
+        bigint id PK
+        bigint gym_id FK
+        bigint member_profile_id FK
+        date recorded_at
+        decimal weight_kg
+        decimal body_fat_percentage
+    }

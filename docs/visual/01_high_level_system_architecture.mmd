@@ -1,0 +1,63 @@
+graph TD
+    %% GymFit High-Level System Architecture Diagram
+    subgraph ClientLayer["Client Layer (React SPA + Tailwind CSS)"]
+        UI_Admin["Platform Admin Portal<br/>(Desktop Web)"]
+        UI_Owner["Gym Owner Dashboard<br/>(Desktop / Tablet)"]
+        UI_Trainer["Trainer Portal<br/>(Tablet / Web)"]
+        UI_Member["Member Fitness Portal<br/>(Mobile-First Web)"]
+    end
+
+    subgraph SecurityGateway["API & Security Gateway (Spring Security 6)"]
+        CORS["CORS & Request Filter"]
+        JWT_Filter["JwtAuthenticationFilter<br/>(Token Signature & Validity)"]
+        Tenant_Filter["TenantContextFilter<br/>(Extracts gymId -> ThreadLocal)"]
+    end
+
+    subgraph ModularBackend["Backend Core: Modular Monolith (Spring Boot 3 / Java 21)"]
+        Mod_Platform["Platform Module<br/>(SaaS Subscriptions & Gym Onboarding)"]
+        Mod_Gym["Gym & Branch Module<br/>(Facilities, Branches, Settings)"]
+        Mod_User["User & Identity Module<br/>(Profiles, Roles, Credentials)"]
+        Mod_Membership["Membership & Billing Module<br/>(Plans, Subscriptions, Invoicing)"]
+        Mod_Attendance["Attendance Engine<br/>(QR Code Scanner, Live Headcount)"]
+        Mod_Class["Class Scheduling Module<br/>(Timetable, Capacity, Booking)"]
+        Mod_Workout["Workout Engine<br/>(Exercise Library, Routines, Set Logging)"]
+        Mod_Nutrition["Nutrition & Metrics Module<br/>(Diet Plans, Body Progression)"]
+        Mod_Analytics["Analytics & Reporting Module<br/>(MRR, Churn, Retention Trends)"]
+        EventBus["Spring ApplicationEventPublisher<br/>(In-Memory Domain Event Bus)"]
+    end
+
+    subgraph StorageLayer["Data Storage Layer (MySQL 8.x InnoDB)"]
+        DB[(Multi-Tenant MySQL Database<br/>Tenant Discriminator: gym_id)]
+    end
+
+    %% Connections
+    UI_Admin -->|HTTPS / JSON / JWT| CORS
+    UI_Owner -->|HTTPS / JSON / JWT| CORS
+    UI_Trainer -->|HTTPS / JSON / JWT| CORS
+    UI_Member -->|HTTPS / JSON / JWT| CORS
+
+    CORS --> JWT_Filter
+    JWT_Filter --> Tenant_Filter
+    Tenant_Filter --> Mod_Platform
+    Tenant_Filter --> Mod_Gym
+    Tenant_Filter --> Mod_User
+    Tenant_Filter --> Mod_Membership
+    Tenant_Filter --> Mod_Attendance
+    Tenant_Filter --> Mod_Class
+    Tenant_Filter --> Mod_Workout
+    Tenant_Filter --> Mod_Nutrition
+    Tenant_Filter --> Mod_Analytics
+
+    Mod_Membership -.->|Publishes MembershipEvent| EventBus
+    Mod_Attendance -.->|Publishes CheckInEvent| EventBus
+    Mod_Class -.->|Publishes BookingEvent| EventBus
+
+    Mod_Platform -->|Spring Data JPA + Tenant Filter| DB
+    Mod_Gym -->|Spring Data JPA + Tenant Filter| DB
+    Mod_User -->|Spring Data JPA + Tenant Filter| DB
+    Mod_Membership -->|Spring Data JPA + Tenant Filter| DB
+    Mod_Attendance -->|Spring Data JPA + Tenant Filter| DB
+    Mod_Class -->|Spring Data JPA + Tenant Filter| DB
+    Mod_Workout -->|Spring Data JPA + Tenant Filter| DB
+    Mod_Nutrition -->|Spring Data JPA + Tenant Filter| DB
+    Mod_Analytics -->|Spring Data JPA + Tenant Filter| DB

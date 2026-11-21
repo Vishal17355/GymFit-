@@ -1,0 +1,25 @@
+flowchart TD
+    Start([Platform Admin or Prospective Gym Owner]) --> Step1[Submit Gym Onboarding Request]
+    
+    Step1 --> InputDetails[Provide Gym Name, Slug, Contact Email, Phone & Address]
+    InputDetails --> SelectPlan[Select SaaS Subscription Plan: Starter, Pro, Enterprise]
+    
+    SelectPlan --> ValidateSlug{Is Gym Slug Unique?}
+    ValidateSlug -->|No| SlugError[Error: Gym Slug / Subdomain Already In Use]
+    SlugError --> InputDetails
+    
+    ValidateSlug -->|Yes| CreateGymRecord[Create Gym Tenant Record: saas_status = TRIAL]
+    CreateGymRecord --> CreateDefaultBranch[Create Primary Default Gym Branch]
+    
+    CreateDefaultBranch --> CreateOwnerUser[Create Initial Gym Owner User Account]
+    CreateOwnerUser --> AssignOwnerRole[Assign ROLE_GYM_OWNER with gym_id]
+    
+    AssignOwnerRole --> GenWelcomeEmail[Generate Activation Token & Welcome Email]
+    GenWelcomeEmail --> OwnerLogin[Gym Owner Sets Password & Logs In]
+    
+    OwnerLogin --> SetupWizard[Gym Owner Completes Setup Wizard]
+    SetupWizard --> ConfigBranding[Configure Gym Brand, Operating Hours & Logo]
+    ConfigBranding --> CreateMemPlans[Define Membership Plans & Pricing Tiers]
+    CreateMemPlans --> OnboardStaff[Invite / Onboard First Trainers]
+    
+    OnboardStaff --> LaunchReady([Gym Tenant Fully Operational & Live])

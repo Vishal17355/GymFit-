@@ -1,0 +1,4 @@
+# Explicitly opt in with SPRING_PROFILES_ACTIVE=local. Shared demo identity, localhost only.
+gymfit:
+  security:
+    demo: true

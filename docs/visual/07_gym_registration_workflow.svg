@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 680" width="100%" height="100%">
+  <defs>
+    <style>
+      .title { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 20px; font-weight: bold; fill: #1e293b; }
+      .subtitle { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; fill: #64748b; }
+      .box-label { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 600; }
+      .box-desc { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 11px; fill: #475569; }
+      .section-title { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: bold; fill: #334155; text-transform: uppercase; letter-spacing: 0.05em; }
+      .arrow-text { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 11px; fill: #0284c7; font-weight: 500; }
+      .mono { font-family: Consolas, 'Courier New', monospace; font-size: 11px; }
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#0284c7" />
+    </marker>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#10b981" />
+    </marker>
+    <marker id="arrow-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#94a3b8" />
+    </marker>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#0f172a" flood-opacity="0.08" />
+    </filter>
+  </defs>
+
+  <rect width="100%" height="100%" fill="#f8fafc" rx="8" />
+  
+  <rect x="0" y="0" width="1000" height="64" fill="#ffffff" rx="8" />
+  <line x1="0" y1="64" x2="1000" y2="64" stroke="#e2e8f0" stroke-width="1.5" />
+  <circle cx="36" cy="32" r="14" fill="#3b82f6" />
+  <text x="36" y="37" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="bold" fill="#ffffff">G</text>
+  <text x="64" y="30" class="title">GymFit &bull; Gym Onboarding & Multi-Tenant Setup</text>
+  <text x="64" y="48" class="subtitle">Multi-Gym Fitness Tracking &amp; Gym Management SaaS Platform</text>
+
+  
+  <rect x="60" y="90" width="880" height="90" rx="8" fill="#ffffff" stroke="#cbd5e1" filter="url(#shadow)" />
+  <text x="80" y="118" class="section-title" fill="#0284c7">Phase 1: Platform Provisioning (Platform Admin)</text>
+  <text x="80" y="142" class="box-desc">&bull; Platform Admin receives gym registration request and assigns SaaS Subscription Tier (Starter, Pro, Enterprise).</text>
+  <text x="80" y="162" class="box-desc">&bull; System validates gym slug uniqueness and creates Gym Tenant record (status = TRIAL).</text>
+
+  <line x1="500" y1="180" x2="500" y2="215" stroke="#0284c7" stroke-width="2" marker-end="url(#arrow)" />
+
+  <rect x="60" y="220" width="880" height="90" rx="8" fill="#ffffff" stroke="#cbd5e1" filter="url(#shadow)" />
+  <text x="80" y="248" class="section-title" fill="#0284c7">Phase 2: Initial Branch &amp; Owner Credentials</text>
+  <text x="80" y="272" class="box-desc">&bull; System provisions default Primary Branch and creates the Gym Owner user account.</text>
+  <text x="80" y="292" class="box-desc">&bull; Generates secure activation token and delivers welcome credentials to the Gym Owner's email.</text>
+
+  <line x1="500" y1="310" x2="500" y2="345" stroke="#0284c7" stroke-width="2" marker-end="url(#arrow)" />
+
+  <rect x="60" y="350" width="880" height="90" rx="8" fill="#ffffff" stroke="#cbd5e1" filter="url(#shadow)" />
+  <text x="80" y="378" class="section-title" fill="#0284c7">Phase 3: Owner Configuration Wizard</text>
+  <text x="80" y="402" class="box-desc">&bull; Gym Owner logs in, sets new password, and configures gym branding (logo, colors, operating hours).</text>
+  <text x="80" y="422" class="box-desc">&bull; Sets up physical branch locations, floor zones, and contact information.</text>
+
+  <line x1="500" y1="440" x2="500" y2="475" stroke="#0284c7" stroke-width="2" marker-end="url(#arrow)" />
+
+  <rect x="60" y="480" width="880" height="90" rx="8" fill="#ecfdf5" stroke="#10b981" filter="url(#shadow)" />
+  <text x="80" y="508" class="section-title" fill="#047857">Phase 4: Operational Readiness</text>
+  <text x="80" y="532" class="box-desc">&bull; Owner defines Membership Plans (pricing, durations, renewal rules) and invites fitness trainers.</text>
+  <text x="80" y="552" class="box-desc">&bull; QR Check-in system is activated; front-desk tablet is linked. The Gym Tenant is officially LIVE!</text>
+
+</svg>

@@ -1,0 +1,49 @@
+flowchart LR
+    %% Application Data Flow Diagram (Input -> Process -> Storage -> Output)
+    subgraph UserInputs["1. User Interactions & Inputs"]
+        In_Creds["Login Credentials<br/>(Email & Password)"]
+        In_QR["Check-in QR Code<br/>(Physical Scan)"]
+        In_Workout["Workout Execution<br/>(Sets, Reps, Weight)"]
+        In_Booking["Class Slot Reservation<br/>(Class ID)"]
+        In_Metrics["Body Measurements<br/>(Weight, Body Fat %)"]
+    end
+
+    subgraph Ingestion["2. API Gateway & Validation Layer"]
+        Val_Auth["JwtAuthenticationFilter<br/>(Validates Signature)"]
+        Val_Tenant["TenantContextFilter<br/>(Binds gym_id)"]
+        Val_DTO["Jakarta Bean Validation<br/>(@Valid on DTOs)"]
+    end
+
+    subgraph BusinessLogic["3. Modular Monolith Domain Processing"]
+        Proc_Auth["Auth & Security Engine<br/>(BCrypt & JWT Issuer)"]
+        Proc_Attend["Attendance Engine<br/>(Instant Validity Check)"]
+        Proc_Workout["Workout Engine<br/>(PR Detection & Volume Calc)"]
+        Proc_Class["Booking Engine<br/>(Concurrency Capacity Lock)"]
+        Proc_Metric["Metric Engine<br/>(Time-Series Analytics)"]
+    end
+
+    subgraph Storage["4. MySQL Multi-Tenant Storage"]
+        DB_Users[("users & profiles<br/>(gym_id)")]
+        DB_Attend[("attendances<br/>(gym_id, timestamp)")]
+        DB_Workouts[("workout_logs & sets<br/>(gym_id, member_id)")]
+        DB_Classes[("classes & bookings<br/>(gym_id, class_id)")]
+        DB_Metrics[("body_metrics<br/>(gym_id, member_id)")]
+    end
+
+    subgraph ClientOutputs["5. Dashboards & Client Insights"]
+        Out_Pass["Member Digital Pass & History"]
+        Out_Live["Owner Live Occupancy Widget"]
+        Out_Progress["Progress & PR Chart Visualizer"]
+        Out_Schedule["Confirmed Timetable Grid"]
+        Out_Revenue["Owner MRR & Revenue Dashboard"]
+    end
+
+    %% Data flow links
+    In_Creds --> Val_Auth --> Proc_Auth --> DB_Users
+    In_QR --> Val_Tenant --> Proc_Attend --> DB_Attend --> Out_Live
+    In_Workout --> Val_DTO --> Proc_Workout --> DB_Workouts --> Out_Progress
+    In_Booking --> Val_DTO --> Proc_Class --> DB_Classes --> Out_Schedule
+    In_Metrics --> Val_DTO --> Proc_Metric --> DB_Metrics --> Out_Progress
+
+    DB_Attend --> Out_Pass
+    DB_Users --> Out_Revenue

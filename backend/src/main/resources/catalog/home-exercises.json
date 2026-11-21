@@ -1,0 +1,4426 @@
+[
+  {
+    "id": "wall-push-up",
+    "name": "Wall push-up",
+    "description": "Wall push-up for controlled push practice.",
+    "primaryMuscle": "CHEST",
+    "secondaryMuscles": [
+      "TRICEPS",
+      "SHOULDERS",
+      "ABS"
+    ],
+    "pattern": "PUSH",
+    "equipment": [],
+    "difficulty": "BEGINNER",
+    "category": "STRENGTH",
+    "instructions": [
+      "Stand facing a solid wall with hands at chest height.",
+      "Bend elbows diagonally back as the chest approaches the wall.",
+      "Press away while keeping head, hips and heels aligned.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "incline-push-up",
+      "knee-push-up"
+    ],
+    "harder": [
+      "standard-push-up",
+      "wide-push-up"
+    ],
+    "limitationTags": [
+      "WRIST",
+      "SHOULDER"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "incline-push-up",
+    "name": "Incline push-up",
+    "description": "Incline push-up for controlled push practice.",
+    "primaryMuscle": "CHEST",
+    "secondaryMuscles": [
+      "TRICEPS",
+      "SHOULDERS",
+      "ABS"
+    ],
+    "pattern": "PUSH",
+    "equipment": [
+      "BENCH"
+    ],
+    "difficulty": "BEGINNER",
+    "category": "STRENGTH",
+    "instructions": [
+      "Place hands on a stable bench secured against sliding.",
+      "Step back into a straight inclined plank.",
+      "Lower chest toward the edge with elbows about 30–45 degrees from the torso, then press up.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "wall-push-up",
+      "knee-push-up"
+    ],
+    "harder": [
+      "standard-push-up",
+      "wide-push-up"
+    ],
+    "limitationTags": [
+      "WRIST",
+      "SHOULDER"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "knee-push-up",
+    "name": "Knee push-up",
+    "description": "Knee push-up for controlled push practice.",
+    "primaryMuscle": "CHEST",
+    "secondaryMuscles": [
+      "TRICEPS",
+      "SHOULDERS",
+      "ABS"
+    ],
+    "pattern": "PUSH",
+    "equipment": [],
+    "difficulty": "BEGINNER",
+    "category": "STRENGTH",
+    "instructions": [
+      "Place hands below shoulders and knees on a comfortable surface.",
+      "Keep a straight line from knees to head.",
+      "Bend elbows to lower the chest, then press up without folding at the hips.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "wall-push-up",
+      "incline-push-up"
+    ],
+    "harder": [
+      "standard-push-up",
+      "wide-push-up"
+    ],
+    "limitationTags": [
+      "WRIST",
+      "SHOULDER"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "standard-push-up",
+    "name": "Standard push-up",
+    "description": "Standard push-up for controlled push practice.",
+    "primaryMuscle": "CHEST",
+    "secondaryMuscles": [
+      "TRICEPS",
+      "SHOULDERS",
+      "ABS"
+    ],
+    "pattern": "PUSH",
+    "equipment": [],
+    "difficulty": "INTERMEDIATE",
+    "category": "STRENGTH",
+    "instructions": [
+      "Set hands just outside shoulder width in a high plank.",
+      "Lower chest between hands while keeping ribs and hips aligned.",
+      "Press the floor away without sagging at the waist.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "wall-push-up",
+      "incline-push-up"
+    ],
+    "harder": [
+      "tempo-push-up",
+      "decline-push-up"
+    ],
+    "limitationTags": [
+      "WRIST",
+      "SHOULDER"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "wide-push-up",
+    "name": "Wide push-up",
+    "description": "Wide push-up for controlled push practice.",
+    "primaryMuscle": "CHEST",
+    "secondaryMuscles": [
+      "TRICEPS",
+      "SHOULDERS",
+      "ABS"
+    ],
+    "pattern": "PUSH",
+    "equipment": [],
+    "difficulty": "INTERMEDIATE",
+    "category": "STRENGTH",
+    "instructions": [
+      "From a plank, place hands slightly wider than your normal push-up.",
+      "Lower only as far as shoulders remain comfortable.",
+      "Press up with elbows angled back rather than flared straight sideways.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "wall-push-up",
+      "incline-push-up"
+    ],
+    "harder": [
+      "tempo-push-up",
+      "decline-push-up"
+    ],
+    "limitationTags": [
+      "WRIST",
+      "SHOULDER"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "close-grip-push-up",
+    "name": "Close-grip push-up",
+    "description": "Close-grip push-up for controlled push practice.",
+    "primaryMuscle": "CHEST",
+    "secondaryMuscles": [
+      "TRICEPS",
+      "SHOULDERS",
+      "ABS"
+    ],
+    "pattern": "PUSH",
+    "equipment": [],
+    "difficulty": "INTERMEDIATE",
+    "category": "STRENGTH",
+    "instructions": [
+      "Place hands slightly narrower than shoulders in a plank.",
+      "Keep elbows close while lowering your torso as one unit.",
+      "Press up without letting the lower back arch.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "wall-push-up",
+      "incline-push-up"
+    ],
+    "harder": [
+      "tempo-push-up",
+      "decline-push-up"
+    ],
+    "limitationTags": [
+      "WRIST",
+      "SHOULDER"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "tempo-push-up",
+    "name": "Tempo push-up",
+    "description": "Tempo push-up for controlled push practice.",
+    "primaryMuscle": "CHEST",
+    "secondaryMuscles": [
+      "TRICEPS",
+      "SHOULDERS",
+      "ABS"
+    ],
+    "pattern": "PUSH",
+    "equipment": [],
+    "difficulty": "ADVANCED",
+    "category": "STRENGTH",
+    "instructions": [
+      "Set a firm high-plank position.",
+      "Lower the chest slowly over three seconds with elbows angled back.",
+      "Pause briefly and press back up under control.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "wall-push-up",
+      "incline-push-up"
+    ],
+    "harder": [
+      "decline-push-up"
+    ],
+    "limitationTags": [
+      "WRIST",
+      "SHOULDER"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "decline-push-up",
+    "name": "Decline push-up",
+    "description": "Decline push-up for controlled push practice.",
+    "primaryMuscle": "CHEST",
+    "secondaryMuscles": [
+      "TRICEPS",
+      "SHOULDERS",
+      "ABS"
+    ],
+    "pattern": "PUSH",
+    "equipment": [
+      "BENCH"
+    ],
+    "difficulty": "ADVANCED",
+    "category": "STRENGTH",
+    "instructions": [
+      "Place feet on a low stable bench and hands beneath shoulders.",
+      "Keep hips aligned rather than lifting them into a pike.",
+      "Lower chest toward the floor and press back without craning the neck.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "wall-push-up",
+      "incline-push-up"
+    ],
+    "harder": [
+      "tempo-push-up"
+    ],
+    "limitationTags": [
+      "WRIST",
+      "SHOULDER"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "dumbbell-floor-press",
+    "name": "Dumbbell floor press",
+    "description": "Dumbbell floor press for controlled push practice.",
+    "primaryMuscle": "CHEST",
+    "secondaryMuscles": [
+      "TRICEPS",
+      "SHOULDERS",
+      "ABS"
+    ],
+    "pattern": "PUSH",
+    "equipment": [
+      "DUMBBELLS"
+    ],
+    "difficulty": "BEGINNER",
+    "category": "STRENGTH",
+    "instructions": [
+      "Lie on the floor with knees bent, weights held above the chest.",
+      "Lower elbows gently to the floor with forearms vertical.",
+      "Press weights up without bouncing elbows.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "wall-push-up",
+      "incline-push-up"
+    ],
+    "harder": [
+      "standard-push-up",
+      "wide-push-up"
+    ],
+    "limitationTags": [
+      "WRIST",
+      "SHOULDER"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "resistance-band-chest-press",
+    "name": "Resistance band chest press",
+    "description": "Resistance band chest press for controlled push practice.",
+    "primaryMuscle": "CHEST",
+    "secondaryMuscles": [
+      "TRICEPS",
+      "SHOULDERS",
+      "ABS"
+    ],
+    "pattern": "PUSH",
+    "equipment": [
+      "RESISTANCE_BANDS"
+    ],
+    "difficulty": "INTERMEDIATE",
+    "category": "STRENGTH",
+    "instructions": [
+      "Wrap a sound band across your upper back below the neck, holding ends at chest level.",
+      "Press hands forward with wrists straight.",
+      "Return slowly; keep the band away from the face.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "wall-push-up",
+      "incline-push-up"
+    ],
+    "harder": [
+      "tempo-push-up",
+      "decline-push-up"
+    ],
+    "limitationTags": [
+      "WRIST",
+      "SHOULDER"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "pike-push-up",
+    "name": "Pike push-up",
+    "description": "Pike push-up for controlled overhead push practice.",
+    "primaryMuscle": "SHOULDERS",
+    "secondaryMuscles": [
+      "TRICEPS",
+      "ABS"
+    ],
+    "pattern": "OVERHEAD_PUSH",
+    "equipment": [],
+    "difficulty": "ADVANCED",
+    "category": "STRENGTH",
+    "instructions": [
+      "Place hands on the floor and raise hips into an inverted V.",
+      "Bend elbows as the head travels between and slightly ahead of the hands.",
+      "Press back up; keep pressure through the whole hand.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "dumbbell-lateral-raise",
+      "arm-circles"
+    ],
+    "harder": [],
+    "limitationTags": [
+      "SHOULDER",
+      "OVERHEAD",
+      "WRIST"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "dumbbell-shoulder-press",
+    "name": "Dumbbell shoulder press",
+    "description": "Dumbbell shoulder press for controlled overhead push practice.",
+    "primaryMuscle": "SHOULDERS",
+    "secondaryMuscles": [
+      "TRICEPS",
+      "ABS"
+    ],
+    "pattern": "OVERHEAD_PUSH",
+    "equipment": [
+      "DUMBBELLS"
+    ],
+    "difficulty": "INTERMEDIATE",
+    "category": "STRENGTH",
+    "instructions": [
+      "Stand tall with dumbbells beside shoulders and ribs stacked above hips.",
+      "Press overhead only through a pain-free range.",
+      "Lower slowly without leaning backward.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "dumbbell-lateral-raise",
+      "arm-circles"
+    ],
+    "harder": [
+      "pike-push-up"
+    ],
+    "limitationTags": [
+      "SHOULDER",
+      "OVERHEAD"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "dumbbell-lateral-raise",
+    "name": "Dumbbell lateral raise",
+    "description": "Dumbbell lateral raise for controlled overhead push practice.",
+    "primaryMuscle": "SHOULDERS",
+    "secondaryMuscles": [
+      "TRICEPS",
+      "ABS"
+    ],
+    "pattern": "OVERHEAD_PUSH",
+    "equipment": [
+      "DUMBBELLS"
+    ],
+    "difficulty": "BEGINNER",
+    "category": "STRENGTH",
+    "instructions": [
+      "Stand with light dumbbells beside the thighs and elbows softly bent.",
+      "Raise arms slightly forward of the torso to no higher than shoulder level.",
+      "Lower slowly without shrugging or swinging.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "arm-circles",
+      "wall-slide"
+    ],
+    "harder": [
+      "pike-push-up",
+      "dumbbell-shoulder-press"
+    ],
+    "limitationTags": [
+      "SHOULDER",
+      "OVERHEAD"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "arm-circles",
+    "name": "Arm circles",
+    "description": "Arm circles for controlled overhead push practice.",
+    "primaryMuscle": "SHOULDERS",
+    "secondaryMuscles": [
+      "TRICEPS",
+      "ABS"
+    ],
+    "pattern": "OVERHEAD_PUSH",
+    "equipment": [],
+    "difficulty": "BEGINNER",
+    "category": "MOBILITY",
+    "instructions": [
+      "Stand tall and extend arms out comfortably.",
+      "Draw small slow circles from the shoulders.",
+      "Reverse direction, keeping the neck relaxed.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Breathe slowly throughout; do not force the stretch.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Hold or move for the prescribed time; repeat both sides when applicable.",
+    "durationSeconds": 30,
+    "restSeconds": 20,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "dumbbell-lateral-raise",
+      "wall-slide"
+    ],
+    "harder": [
+      "pike-push-up",
+      "dumbbell-shoulder-press"
+    ],
+    "limitationTags": [
+      "SHOULDER",
+      "OVERHEAD"
+    ],
+    "met": 2.3,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "wall-slide",
+    "name": "Wall slide",
+    "description": "Wall slide for controlled overhead push practice.",
+    "primaryMuscle": "SHOULDERS",
+    "secondaryMuscles": [
+      "TRICEPS",
+      "ABS"
+    ],
+    "pattern": "OVERHEAD_PUSH",
+    "equipment": [],
+    "difficulty": "BEGINNER",
+    "category": "MOBILITY",
+    "instructions": [
+      "Stand with back near a wall and forearms facing forward.",
+      "Slide arms upward only while ribs stay down.",
+      "Return slowly; avoid forcing wrists or elbows against the wall.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Breathe slowly throughout; do not force the stretch.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Hold or move for the prescribed time; repeat both sides when applicable.",
+    "durationSeconds": 30,
+    "restSeconds": 20,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "dumbbell-lateral-raise",
+      "arm-circles"
+    ],
+    "harder": [
+      "pike-push-up",
+      "dumbbell-shoulder-press"
+    ],
+    "limitationTags": [
+      "SHOULDER",
+      "OVERHEAD"
+    ],
+    "met": 2.3,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "shoulder-external-rotation",
+    "name": "Shoulder external rotation",
+    "description": "Shoulder external rotation for controlled overhead push practice.",
+    "primaryMuscle": "SHOULDERS",
+    "secondaryMuscles": [
+      "TRICEPS",
+      "ABS"
+    ],
+    "pattern": "OVERHEAD_PUSH",
+    "equipment": [
+      "RESISTANCE_BANDS"
+    ],
+    "difficulty": "BEGINNER",
+    "category": "STRENGTH",
+    "instructions": [
+      "Hold a light band with elbows tucked against the ribs, bent to 90 degrees.",
+      "Rotate hands apart without moving the elbows outward.",
+      "Return slowly; use light tension and a comfortable range.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "dumbbell-lateral-raise",
+      "arm-circles"
+    ],
+    "harder": [
+      "pike-push-up",
+      "dumbbell-shoulder-press"
+    ],
+    "limitationTags": [
+      "SHOULDER",
+      "OVERHEAD"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "shoulder-taps",
+    "name": "Shoulder taps",
+    "description": "Shoulder taps for controlled core stability practice.",
+    "primaryMuscle": "SHOULDERS",
+    "secondaryMuscles": [
+      "ABS",
+      "TRICEPS"
+    ],
+    "pattern": "CORE_STABILITY",
+    "equipment": [],
+    "difficulty": "INTERMEDIATE",
+    "category": "STRENGTH",
+    "instructions": [
+      "Set a wide-foot high plank.",
+      "Lift one hand to tap the opposite shoulder while hips stay still.",
+      "Return the hand and alternate slowly.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "incline-shoulder-taps",
+      "dead-bug"
+    ],
+    "harder": [
+      "hollow-hold"
+    ],
+    "limitationTags": [
+      "WRIST",
+      "SHOULDER",
+      "FLOOR"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "incline-shoulder-taps",
+    "name": "Incline shoulder taps",
+    "description": "Incline shoulder taps for controlled core stability practice.",
+    "primaryMuscle": "SHOULDERS",
+    "secondaryMuscles": [
+      "ABS",
+      "TRICEPS"
+    ],
+    "pattern": "CORE_STABILITY",
+    "equipment": [
+      "BENCH"
+    ],
+    "difficulty": "BEGINNER",
+    "category": "STRENGTH",
+    "instructions": [
+      "Place hands on a stable bench and step feet back and wide.",
+      "Briefly lift one hand to the opposite shoulder.",
+      "Replace the hand and alternate without twisting.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "dead-bug",
+      "bird-dog"
+    ],
+    "harder": [
+      "shoulder-taps",
+      "forearm-plank"
+    ],
+    "limitationTags": [
+      "WRIST",
+      "SHOULDER",
+      "FLOOR"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "prone-reverse-snow-angel",
+    "name": "Prone reverse snow angel",
+    "description": "Prone reverse snow angel for controlled scapular practice.",
+    "primaryMuscle": "BACK",
+    "secondaryMuscles": [
+      "SHOULDERS"
+    ],
+    "pattern": "SCAPULAR",
+    "equipment": [],
+    "difficulty": "BEGINNER",
+    "category": "STRENGTH",
+    "instructions": [
+      "Lie face down with forehead supported and arms beside the torso.",
+      "Lift hands slightly and sweep arms outward toward overhead only as comfortable.",
+      "Return arms beside the hips without arching the lower back.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "prone-w-raise",
+      "standing-scapular-squeeze"
+    ],
+    "harder": [
+      "prone-y-raise",
+      "superman-raise"
+    ],
+    "limitationTags": [
+      "BACK",
+      "SHOULDER",
+      "FLOOR"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "prone-w-raise",
+    "name": "Prone W raise",
+    "description": "Prone W raise for controlled scapular practice.",
+    "primaryMuscle": "BACK",
+    "secondaryMuscles": [
+      "SHOULDERS"
+    ],
+    "pattern": "SCAPULAR",
+    "equipment": [],
+    "difficulty": "BEGINNER",
+    "category": "STRENGTH",
+    "instructions": [
+      "Lie face down with elbows bent into a W and forehead supported.",
+      "Gently lift forearms while drawing shoulder blades down and back.",
+      "Lower slowly without lifting the chest high.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "prone-reverse-snow-angel",
+      "standing-scapular-squeeze"
+    ],
+    "harder": [
+      "prone-y-raise",
+      "superman-raise"
+    ],
+    "limitationTags": [
+      "BACK",
+      "SHOULDER",
+      "FLOOR"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "prone-y-raise",
+    "name": "Prone Y raise",
+    "description": "Prone Y raise for controlled scapular practice.",
+    "primaryMuscle": "BACK",
+    "secondaryMuscles": [
+      "SHOULDERS"
+    ],
+    "pattern": "SCAPULAR",
+    "equipment": [],
+    "difficulty": "INTERMEDIATE",
+    "category": "STRENGTH",
+    "instructions": [
+      "Lie face down with arms reaching diagonally overhead in a Y.",
+      "Raise hands a small distance while keeping the neck long.",
+      "Lower gently, avoiding a lumbar arch.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "prone-reverse-snow-angel",
+      "prone-w-raise"
+    ],
+    "harder": [],
+    "limitationTags": [
+      "BACK",
+      "SHOULDER",
+      "FLOOR"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "superman-raise",
+    "name": "Superman raise",
+    "description": "Superman raise for controlled scapular practice.",
+    "primaryMuscle": "BACK",
+    "secondaryMuscles": [
+      "SHOULDERS"
+    ],
+    "pattern": "SCAPULAR",
+    "equipment": [],
+    "difficulty": "INTERMEDIATE",
+    "category": "STRENGTH",
+    "instructions": [
+      "Lie face down with arms forward and legs long.",
+      "Lift arms and legs a small distance by lengthening rather than arching.",
+      "Lower slowly; use a smaller range if the back feels compressed.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "prone-reverse-snow-angel",
+      "prone-w-raise"
+    ],
+    "harder": [],
+    "limitationTags": [
+      "BACK",
+      "SHOULDER",
+      "FLOOR"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "standing-scapular-squeeze",
+    "name": "Standing scapular squeeze",
+    "description": "Standing scapular squeeze for controlled scapular practice.",
+    "primaryMuscle": "BACK",
+    "secondaryMuscles": [
+      "SHOULDERS"
+    ],
+    "pattern": "SCAPULAR",
+    "equipment": [],
+    "difficulty": "BEGINNER",
+    "category": "STRENGTH",
+    "instructions": [
+      "Stand with arms relaxed and ribs stacked over hips.",
+      "Gently draw shoulder blades together without shrugging.",
+      "Release fully between repetitions.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "prone-reverse-snow-angel",
+      "prone-w-raise"
+    ],
+    "harder": [
+      "prone-y-raise",
+      "superman-raise"
+    ],
+    "limitationTags": [
+      "BACK",
+      "SHOULDER",
+      "FLOOR"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "resistance-band-row",
+    "name": "Resistance band row",
+    "description": "Resistance band row for controlled pull practice.",
+    "primaryMuscle": "BACK",
+    "secondaryMuscles": [
+      "BICEPS",
+      "SHOULDERS"
+    ],
+    "pattern": "PULL",
+    "equipment": [
+      "RESISTANCE_BANDS"
+    ],
+    "difficulty": "BEGINNER",
+    "category": "STRENGTH",
+    "instructions": [
+      "Sit with knees softly bent, looping an intact band around the mid-soles of shoes.",
+      "Pull elbows toward the ribs with chest tall and band below the face.",
+      "Return slowly; keep the band secure and stop if it slips.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "dumbbell-row",
+      "resistance-band-pull-apart"
+    ],
+    "harder": [
+      "two-arm-dumbbell-row",
+      "pull-up"
+    ],
+    "limitationTags": [
+      "BACK",
+      "SHOULDER"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "dumbbell-row",
+    "name": "Dumbbell row",
+    "description": "Dumbbell row for controlled pull practice.",
+    "primaryMuscle": "BACK",
+    "secondaryMuscles": [
+      "BICEPS",
+      "SHOULDERS"
+    ],
+    "pattern": "PULL",
+    "equipment": [
+      "DUMBBELLS"
+    ],
+    "difficulty": "BEGINNER",
+    "category": "STRENGTH",
+    "instructions": [
+      "Hinge at the hips with a neutral back, supporting the free hand on your thigh.",
+      "Pull one dumbbell toward the hip without twisting.",
+      "Lower under control and repeat evenly on both sides.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "resistance-band-row",
+      "resistance-band-pull-apart"
+    ],
+    "harder": [
+      "two-arm-dumbbell-row",
+      "pull-up"
+    ],
+    "limitationTags": [
+      "BACK",
+      "SHOULDER"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "two-arm-dumbbell-row",
+    "name": "Two-arm dumbbell row",
+    "description": "Two-arm dumbbell row for controlled pull practice.",
+    "primaryMuscle": "BACK",
+    "secondaryMuscles": [
+      "BICEPS",
+      "SHOULDERS"
+    ],
+    "pattern": "PULL",
+    "equipment": [
+      "DUMBBELLS"
+    ],
+    "difficulty": "INTERMEDIATE",
+    "category": "STRENGTH",
+    "instructions": [
+      "Hinge at the hips with knees soft and spine long.",
+      "Pull both elbows toward hips without jerking the torso.",
+      "Lower the weights slowly.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "resistance-band-row",
+      "dumbbell-row"
+    ],
+    "harder": [
+      "pull-up"
+    ],
+    "limitationTags": [
+      "BACK",
+      "SHOULDER"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "pull-up",
+    "name": "Pull-up",
+    "description": "Pull-up for controlled pull practice.",
+    "primaryMuscle": "BACK",
+    "secondaryMuscles": [
+      "BICEPS",
+      "SHOULDERS"
+    ],
+    "pattern": "PULL",
+    "equipment": [
+      "PULL_UP_BAR"
+    ],
+    "difficulty": "ADVANCED",
+    "category": "STRENGTH",
+    "instructions": [
+      "Check that a rated bar is securely mounted and grip just outside shoulder width.",
+      "Pull without kicking until the chin approaches bar height.",
+      "Lower under control; use a step to get on and off safely.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "resistance-band-row",
+      "dumbbell-row"
+    ],
+    "harder": [],
+    "limitationTags": [
+      "BACK",
+      "SHOULDER"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "assisted-pull-up",
+    "name": "Assisted pull-up",
+    "description": "Assisted pull-up for controlled pull practice.",
+    "primaryMuscle": "BACK",
+    "secondaryMuscles": [
+      "BICEPS",
+      "SHOULDERS"
+    ],
+    "pattern": "PULL",
+    "equipment": [
+      "PULL_UP_BAR",
+      "RESISTANCE_BANDS"
+    ],
+    "difficulty": "INTERMEDIATE",
+    "category": "STRENGTH",
+    "instructions": [
+      "Attach a rated assistance band securely to a rated pull-up bar according to its instructions.",
+      "Use the band assistance to pull upward without swinging.",
+      "Lower slowly; control band tension when getting in and out.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "resistance-band-row",
+      "dumbbell-row"
+    ],
+    "harder": [
+      "pull-up"
+    ],
+    "limitationTags": [
+      "BACK",
+      "SHOULDER"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "resistance-band-pull-apart",
+    "name": "Resistance band pull-apart",
+    "description": "Resistance band pull-apart for controlled pull practice.",
+    "primaryMuscle": "BACK",
+    "secondaryMuscles": [
+      "BICEPS",
+      "SHOULDERS"
+    ],
+    "pattern": "PULL",
+    "equipment": [
+      "RESISTANCE_BANDS"
+    ],
+    "difficulty": "BEGINNER",
+    "category": "STRENGTH",
+    "instructions": [
+      "Hold a light intact band at chest height with elbows soft.",
+      "Open the arms while drawing shoulder blades together.",
+      "Return slowly without flaring ribs or snapping the band.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "resistance-band-row",
+      "dumbbell-row"
+    ],
+    "harder": [
+      "two-arm-dumbbell-row",
+      "pull-up"
+    ],
+    "limitationTags": [
+      "BACK",
+      "SHOULDER"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "bodyweight-squat",
+    "name": "Bodyweight squat",
+    "description": "Bodyweight squat for controlled squat practice.",
+    "primaryMuscle": "QUADRICEPS",
+    "secondaryMuscles": [
+      "GLUTES",
+      "CALVES"
+    ],
+    "pattern": "SQUAT",
+    "equipment": [],
+    "difficulty": "BEGINNER",
+    "category": "STRENGTH",
+    "instructions": [
+      "Stand with feet about shoulder width and toes turned out comfortably.",
+      "Bend knees and hips together, keeping knees aligned with toes.",
+      "Push through the whole foot to stand tall.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "sumo-squat",
+      "squat-to-bench"
+    ],
+    "harder": [
+      "dumbbell-goblet-squat",
+      "kettlebell-goblet-squat"
+    ],
+    "limitationTags": [
+      "KNEE"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "sumo-squat",
+    "name": "Sumo squat",
+    "description": "Sumo squat for controlled squat practice.",
+    "primaryMuscle": "QUADRICEPS",
+    "secondaryMuscles": [
+      "GLUTES",
+      "CALVES"
+    ],
+    "pattern": "SQUAT",
+    "equipment": [],
+    "difficulty": "BEGINNER",
+    "category": "STRENGTH",
+    "instructions": [
+      "Stand wider than shoulder width with toes turned out moderately.",
+      "Sit down between the hips while knees track over toes.",
+      "Stand without rolling weight to the inner edges of the feet.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "bodyweight-squat",
+      "squat-to-bench"
+    ],
+    "harder": [
+      "dumbbell-goblet-squat",
+      "kettlebell-goblet-squat"
+    ],
+    "limitationTags": [
+      "KNEE"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "squat-to-bench",
+    "name": "Squat to bench",
+    "description": "Squat to bench for controlled squat practice.",
+    "primaryMuscle": "QUADRICEPS",
+    "secondaryMuscles": [
+      "GLUTES",
+      "CALVES"
+    ],
+    "pattern": "SQUAT",
+    "equipment": [
+      "BENCH"
+    ],
+    "difficulty": "BEGINNER",
+    "category": "STRENGTH",
+    "instructions": [
+      "Stand just in front of a stable bench with feet planted.",
+      "Sit back until the hips lightly touch the bench.",
+      "Stand without rocking or pushing off with the hands.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "bodyweight-squat",
+      "sumo-squat"
+    ],
+    "harder": [
+      "dumbbell-goblet-squat",
+      "kettlebell-goblet-squat"
+    ],
+    "limitationTags": [
+      "KNEE"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "wall-sit",
+    "name": "Wall sit",
+    "description": "Wall sit for controlled squat practice.",
+    "primaryMuscle": "QUADRICEPS",
+    "secondaryMuscles": [
+      "GLUTES",
+      "CALVES"
+    ],
+    "pattern": "SQUAT",
+    "equipment": [],
+    "difficulty": "BEGINNER",
+    "category": "STRENGTH",
+    "instructions": [
+      "Lean the back against a stable wall and walk feet slightly forward.",
+      "Slide down only to a comfortable knee angle.",
+      "Hold while breathing, then rise slowly.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Hold or move for the prescribed time; repeat both sides when applicable.",
+    "durationSeconds": 20,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "bodyweight-squat",
+      "sumo-squat"
+    ],
+    "harder": [
+      "dumbbell-goblet-squat",
+      "kettlebell-goblet-squat"
+    ],
+    "limitationTags": [
+      "KNEE"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "dumbbell-goblet-squat",
+    "name": "Dumbbell goblet squat",
+    "description": "Dumbbell goblet squat for controlled squat practice.",
+    "primaryMuscle": "QUADRICEPS",
+    "secondaryMuscles": [
+      "GLUTES",
+      "CALVES"
+    ],
+    "pattern": "SQUAT",
+    "equipment": [
+      "DUMBBELLS"
+    ],
+    "difficulty": "INTERMEDIATE",
+    "category": "STRENGTH",
+    "instructions": [
+      "Hold one dumbbell securely at the chest and stand shoulder width.",
+      "Lower between the hips while keeping the weight close.",
+      "Stand without tipping the chest or knees inward.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "bodyweight-squat",
+      "sumo-squat"
+    ],
+    "harder": [],
+    "limitationTags": [
+      "KNEE"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "kettlebell-goblet-squat",
+    "name": "Kettlebell goblet squat",
+    "description": "Kettlebell goblet squat for controlled squat practice.",
+    "primaryMuscle": "QUADRICEPS",
+    "secondaryMuscles": [
+      "GLUTES",
+      "CALVES"
+    ],
+    "pattern": "SQUAT",
+    "equipment": [
+      "KETTLEBELL"
+    ],
+    "difficulty": "INTERMEDIATE",
+    "category": "STRENGTH",
+    "instructions": [
+      "Hold a kettlebell by its horns at chest height.",
+      "Bend knees and hips into a comfortable squat.",
+      "Stand smoothly with feet planted.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "bodyweight-squat",
+      "sumo-squat"
+    ],
+    "harder": [],
+    "limitationTags": [
+      "KNEE"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "tempo-squat",
+    "name": "Tempo squat",
+    "description": "Tempo squat for controlled squat practice.",
+    "primaryMuscle": "QUADRICEPS",
+    "secondaryMuscles": [
+      "GLUTES",
+      "CALVES"
+    ],
+    "pattern": "SQUAT",
+    "equipment": [],
+    "difficulty": "INTERMEDIATE",
+    "category": "STRENGTH",
+    "instructions": [
+      "Stand in a comfortable squat stance.",
+      "Lower over three seconds and pause briefly without relaxing posture.",
+      "Stand smoothly without bouncing out of the bottom.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "bodyweight-squat",
+      "sumo-squat"
+    ],
+    "harder": [],
+    "limitationTags": [
+      "KNEE"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "reverse-lunge",
+    "name": "Reverse lunge",
+    "description": "Reverse lunge for controlled lunge practice.",
+    "primaryMuscle": "QUADRICEPS",
+    "secondaryMuscles": [
+      "GLUTES",
+      "HAMSTRINGS"
+    ],
+    "pattern": "LUNGE",
+    "equipment": [],
+    "difficulty": "BEGINNER",
+    "category": "STRENGTH",
+    "instructions": [
+      "Stand tall, stepping one foot back into a split stance.",
+      "Lower both knees only as far as comfortable, keeping the front heel down.",
+      "Push through the front foot to return and alternate.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "split-squat",
+      "step-up"
+    ],
+    "harder": [
+      "forward-lunge",
+      "lateral-lunge"
+    ],
+    "limitationTags": [
+      "KNEE",
+      "BALANCE"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "forward-lunge",
+    "name": "Forward lunge",
+    "description": "Forward lunge for controlled lunge practice.",
+    "primaryMuscle": "QUADRICEPS",
+    "secondaryMuscles": [
+      "GLUTES",
+      "HAMSTRINGS"
+    ],
+    "pattern": "LUNGE",
+    "equipment": [],
+    "difficulty": "INTERMEDIATE",
+    "category": "STRENGTH",
+    "instructions": [
+      "Step forward far enough to maintain balance.",
+      "Lower under control with front knee aligned over the foot.",
+      "Push back to the starting position and alternate.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "reverse-lunge",
+      "split-squat"
+    ],
+    "harder": [
+      "bulgarian-split-squat"
+    ],
+    "limitationTags": [
+      "KNEE",
+      "BALANCE"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "split-squat",
+    "name": "Split squat",
+    "description": "Split squat for controlled lunge practice.",
+    "primaryMuscle": "QUADRICEPS",
+    "secondaryMuscles": [
+      "GLUTES",
+      "HAMSTRINGS"
+    ],
+    "pattern": "LUNGE",
+    "equipment": [],
+    "difficulty": "BEGINNER",
+    "category": "STRENGTH",
+    "instructions": [
+      "Set a stationary staggered stance with feet on separate hip-width tracks.",
+      "Bend both knees to lower vertically.",
+      "Stand using the front leg; finish both sides.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "reverse-lunge",
+      "step-up"
+    ],
+    "harder": [
+      "forward-lunge",
+      "lateral-lunge"
+    ],
+    "limitationTags": [
+      "KNEE",
+      "BALANCE"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "lateral-lunge",
+    "name": "Lateral lunge",
+    "description": "Lateral lunge for controlled lunge practice.",
+    "primaryMuscle": "QUADRICEPS",
+    "secondaryMuscles": [
+      "GLUTES",
+      "HAMSTRINGS"
+    ],
+    "pattern": "LUNGE",
+    "equipment": [],
+    "difficulty": "INTERMEDIATE",
+    "category": "STRENGTH",
+    "instructions": [
+      "Take a wide step sideways with toes mostly forward.",
+      "Sit the hips toward the stepping side while the other leg stays long.",
+      "Push off the bent leg to return.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "reverse-lunge",
+      "split-squat"
+    ],
+    "harder": [
+      "bulgarian-split-squat"
+    ],
+    "limitationTags": [
+      "KNEE",
+      "BALANCE"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "step-up",
+    "name": "Step-up",
+    "description": "Step-up for controlled lunge practice.",
+    "primaryMuscle": "QUADRICEPS",
+    "secondaryMuscles": [
+      "GLUTES",
+      "HAMSTRINGS"
+    ],
+    "pattern": "LUNGE",
+    "equipment": [
+      "BENCH"
+    ],
+    "difficulty": "BEGINNER",
+    "category": "STRENGTH",
+    "instructions": [
+      "Use a low, stable step and place the whole foot on top.",
+      "Push through that leg to step up without jumping off the rear foot.",
+      "Step down slowly and alternate sides.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "reverse-lunge",
+      "split-squat"
+    ],
+    "harder": [
+      "forward-lunge",
+      "lateral-lunge"
+    ],
+    "limitationTags": [
+      "KNEE",
+      "BALANCE"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "bulgarian-split-squat",
+    "name": "Bulgarian split squat",
+    "description": "Bulgarian split squat for controlled lunge practice.",
+    "primaryMuscle": "QUADRICEPS",
+    "secondaryMuscles": [
+      "GLUTES",
+      "HAMSTRINGS"
+    ],
+    "pattern": "LUNGE",
+    "equipment": [
+      "BENCH"
+    ],
+    "difficulty": "ADVANCED",
+    "category": "STRENGTH",
+    "instructions": [
+      "Rest the rear foot on a low stable bench with the front foot well forward.",
+      "Lower by bending the front leg, keeping hips level.",
+      "Stand without bouncing; use support if needed.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "reverse-lunge",
+      "split-squat"
+    ],
+    "harder": [],
+    "limitationTags": [
+      "KNEE",
+      "BALANCE"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "dumbbell-reverse-lunge",
+    "name": "Dumbbell reverse lunge",
+    "description": "Dumbbell reverse lunge for controlled lunge practice.",
+    "primaryMuscle": "QUADRICEPS",
+    "secondaryMuscles": [
+      "GLUTES",
+      "HAMSTRINGS"
+    ],
+    "pattern": "LUNGE",
+    "equipment": [
+      "DUMBBELLS"
+    ],
+    "difficulty": "INTERMEDIATE",
+    "category": "STRENGTH",
+    "instructions": [
+      "Hold light dumbbells beside the hips.",
+      "Step back and bend both knees with the front foot planted.",
+      "Return through the front leg and alternate.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "reverse-lunge",
+      "split-squat"
+    ],
+    "harder": [
+      "bulgarian-split-squat"
+    ],
+    "limitationTags": [
+      "KNEE",
+      "BALANCE"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "glute-bridge",
+    "name": "Glute bridge",
+    "description": "Glute bridge for controlled hinge practice.",
+    "primaryMuscle": "GLUTES",
+    "secondaryMuscles": [
+      "HAMSTRINGS",
+      "ABS"
+    ],
+    "pattern": "HINGE",
+    "equipment": [],
+    "difficulty": "BEGINNER",
+    "category": "STRENGTH",
+    "instructions": [
+      "Lie on the back with knees bent and feet flat near the hips.",
+      "Squeeze the glutes to lift hips until the torso and thighs align.",
+      "Lower slowly without arching the lower back.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "bodyweight-good-morning",
+      "kettlebell-deadlift"
+    ],
+    "harder": [
+      "single-leg-glute-bridge",
+      "bridge-march"
+    ],
+    "limitationTags": [
+      "BACK",
+      "FLOOR"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "single-leg-glute-bridge",
+    "name": "Single-leg glute bridge",
+    "description": "Single-leg glute bridge for controlled hinge practice.",
+    "primaryMuscle": "GLUTES",
+    "secondaryMuscles": [
+      "HAMSTRINGS",
+      "ABS"
+    ],
+    "pattern": "HINGE",
+    "equipment": [],
+    "difficulty": "INTERMEDIATE",
+    "category": "STRENGTH",
+    "instructions": [
+      "Start in a bridge position and lift one foot while keeping hips level.",
+      "Press through the planted foot to lift the hips.",
+      "Lower gently and complete the other side.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "glute-bridge",
+      "bodyweight-good-morning"
+    ],
+    "harder": [],
+    "limitationTags": [
+      "BACK",
+      "FLOOR"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "bridge-march",
+    "name": "Bridge march",
+    "description": "Bridge march for controlled hinge practice.",
+    "primaryMuscle": "GLUTES",
+    "secondaryMuscles": [
+      "HAMSTRINGS",
+      "ABS"
+    ],
+    "pattern": "HINGE",
+    "equipment": [],
+    "difficulty": "INTERMEDIATE",
+    "category": "STRENGTH",
+    "instructions": [
+      "Lift hips into a comfortable bridge.",
+      "Briefly raise one foot without dropping or rotating the pelvis.",
+      "Replace it and alternate slowly.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "glute-bridge",
+      "bodyweight-good-morning"
+    ],
+    "harder": [],
+    "limitationTags": [
+      "BACK",
+      "FLOOR"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "frog-bridge",
+    "name": "Frog bridge",
+    "description": "Frog bridge for controlled hinge practice.",
+    "primaryMuscle": "GLUTES",
+    "secondaryMuscles": [
+      "HAMSTRINGS",
+      "ABS"
+    ],
+    "pattern": "HINGE",
+    "equipment": [],
+    "difficulty": "INTERMEDIATE",
+    "category": "STRENGTH",
+    "instructions": [
+      "Lie on the back with soles gently together and knees comfortably apart.",
+      "Press through the feet and lift hips a short distance.",
+      "Lower slowly; do not force the hips outward.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "glute-bridge",
+      "bodyweight-good-morning"
+    ],
+    "harder": [],
+    "limitationTags": [
+      "BACK",
+      "FLOOR"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "bodyweight-good-morning",
+    "name": "Bodyweight good morning",
+    "description": "Bodyweight good morning for controlled hinge practice.",
+    "primaryMuscle": "HAMSTRINGS",
+    "secondaryMuscles": [
+      "GLUTES",
+      "BACK"
+    ],
+    "pattern": "HINGE",
+    "equipment": [],
+    "difficulty": "BEGINNER",
+    "category": "STRENGTH",
+    "instructions": [
+      "Stand with knees soft and hands across the chest.",
+      "Push hips backward while keeping the spine long.",
+      "Return by bringing hips forward without leaning back.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "glute-bridge",
+      "kettlebell-deadlift"
+    ],
+    "harder": [
+      "single-leg-glute-bridge",
+      "bridge-march"
+    ],
+    "limitationTags": [
+      "BACK",
+      "BALANCE"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "dumbbell-romanian-deadlift",
+    "name": "Dumbbell Romanian deadlift",
+    "description": "Dumbbell Romanian deadlift for controlled hinge practice.",
+    "primaryMuscle": "HAMSTRINGS",
+    "secondaryMuscles": [
+      "GLUTES",
+      "BACK"
+    ],
+    "pattern": "HINGE",
+    "equipment": [
+      "DUMBBELLS"
+    ],
+    "difficulty": "INTERMEDIATE",
+    "category": "STRENGTH",
+    "instructions": [
+      "Hold weights close to thighs with knees softly bent.",
+      "Hinge hips back until the hamstrings feel tension and the back remains neutral.",
+      "Stand by extending hips, keeping weights near the legs.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "glute-bridge",
+      "bodyweight-good-morning"
+    ],
+    "harder": [],
+    "limitationTags": [
+      "BACK",
+      "BALANCE"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "kettlebell-deadlift",
+    "name": "Kettlebell deadlift",
+    "description": "Kettlebell deadlift for controlled hinge practice.",
+    "primaryMuscle": "HAMSTRINGS",
+    "secondaryMuscles": [
+      "GLUTES",
+      "BACK"
+    ],
+    "pattern": "HINGE",
+    "equipment": [
+      "KETTLEBELL"
+    ],
+    "difficulty": "BEGINNER",
+    "category": "STRENGTH",
+    "instructions": [
+      "Place a kettlebell between the feet on a stable floor.",
+      "Hinge and bend knees enough to grasp it with a neutral back.",
+      "Push the floor away to stand; reverse the motion gently.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "glute-bridge",
+      "bodyweight-good-morning"
+    ],
+    "harder": [
+      "single-leg-glute-bridge",
+      "bridge-march"
+    ],
+    "limitationTags": [
+      "BACK",
+      "BALANCE"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "kickstand-hinge",
+    "name": "Kickstand hinge",
+    "description": "Kickstand hinge for controlled hinge practice.",
+    "primaryMuscle": "HAMSTRINGS",
+    "secondaryMuscles": [
+      "GLUTES",
+      "BACK"
+    ],
+    "pattern": "HINGE",
+    "equipment": [],
+    "difficulty": "INTERMEDIATE",
+    "category": "STRENGTH",
+    "instructions": [
+      "Stand with one foot slightly back as a light balance support.",
+      "Hinge over the front leg with hips square.",
+      "Stand through the front hip and repeat both sides.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "glute-bridge",
+      "bodyweight-good-morning"
+    ],
+    "harder": [],
+    "limitationTags": [
+      "BACK",
+      "BALANCE"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "side-lying-leg-raise",
+    "name": "Side-lying leg raise",
+    "description": "Side-lying leg raise for controlled hip abduction practice.",
+    "primaryMuscle": "GLUTES",
+    "secondaryMuscles": [
+      "ABS"
+    ],
+    "pattern": "HIP_ABDUCTION",
+    "equipment": [],
+    "difficulty": "BEGINNER",
+    "category": "STRENGTH",
+    "instructions": [
+      "Lie on the side with lower knee bent and top leg long.",
+      "Lift the top leg slightly behind the torso line with toes forward.",
+      "Lower slowly without rolling the pelvis backward.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "clamshell",
+      "standing-hip-abduction"
+    ],
+    "harder": [],
+    "limitationTags": [
+      "HIP",
+      "FLOOR"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "clamshell",
+    "name": "Clamshell",
+    "description": "Clamshell for controlled hip abduction practice.",
+    "primaryMuscle": "GLUTES",
+    "secondaryMuscles": [
+      "ABS"
+    ],
+    "pattern": "HIP_ABDUCTION",
+    "equipment": [],
+    "difficulty": "BEGINNER",
+    "category": "STRENGTH",
+    "instructions": [
+      "Lie on the side with knees bent and feet together.",
+      "Open the top knee only as far as the pelvis stays stacked.",
+      "Close slowly without rolling back.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "side-lying-leg-raise",
+      "standing-hip-abduction"
+    ],
+    "harder": [],
+    "limitationTags": [
+      "HIP",
+      "FLOOR"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "standing-hip-abduction",
+    "name": "Standing hip abduction",
+    "description": "Standing hip abduction for controlled hip abduction practice.",
+    "primaryMuscle": "GLUTES",
+    "secondaryMuscles": [
+      "ABS"
+    ],
+    "pattern": "HIP_ABDUCTION",
+    "equipment": [],
+    "difficulty": "BEGINNER",
+    "category": "STRENGTH",
+    "instructions": [
+      "Stand beside a wall for light balance support.",
+      "Move one straight leg sideways a small distance without leaning.",
+      "Return slowly and repeat on the other side.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "side-lying-leg-raise",
+      "clamshell"
+    ],
+    "harder": [],
+    "limitationTags": [
+      "HIP",
+      "FLOOR"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "calf-raise",
+    "name": "Calf raise",
+    "description": "Calf raise for controlled calf practice.",
+    "primaryMuscle": "CALVES",
+    "secondaryMuscles": [],
+    "pattern": "CALF",
+    "equipment": [],
+    "difficulty": "BEGINNER",
+    "category": "STRENGTH",
+    "instructions": [
+      "Stand with feet hip width near a wall for support.",
+      "Rise onto the balls of both feet without rolling ankles outward.",
+      "Lower heels slowly to the floor.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "bent-knee-calf-raise"
+    ],
+    "harder": [
+      "single-leg-calf-raise"
+    ],
+    "limitationTags": [
+      "ANKLE",
+      "BALANCE"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "single-leg-calf-raise",
+    "name": "Single-leg calf raise",
+    "description": "Single-leg calf raise for controlled calf practice.",
+    "primaryMuscle": "CALVES",
+    "secondaryMuscles": [],
+    "pattern": "CALF",
+    "equipment": [],
+    "difficulty": "INTERMEDIATE",
+    "category": "STRENGTH",
+    "instructions": [
+      "Stand on one foot with light wall support.",
+      "Lift the heel straight upward through the ball of the foot.",
+      "Lower slowly; complete both sides.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "calf-raise",
+      "bent-knee-calf-raise"
+    ],
+    "harder": [],
+    "limitationTags": [
+      "ANKLE",
+      "BALANCE"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "bent-knee-calf-raise",
+    "name": "Bent-knee calf raise",
+    "description": "Bent-knee calf raise for controlled calf practice.",
+    "primaryMuscle": "CALVES",
+    "secondaryMuscles": [],
+    "pattern": "CALF",
+    "equipment": [],
+    "difficulty": "BEGINNER",
+    "category": "STRENGTH",
+    "instructions": [
+      "Stand with knees slightly bent and light wall support.",
+      "Keep the knee angle steady while lifting heels.",
+      "Lower slowly without bouncing.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "calf-raise"
+    ],
+    "harder": [
+      "single-leg-calf-raise"
+    ],
+    "limitationTags": [
+      "ANKLE",
+      "BALANCE"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "dead-bug",
+    "name": "Dead bug",
+    "description": "Dead bug for controlled core stability practice.",
+    "primaryMuscle": "ABS",
+    "secondaryMuscles": [
+      "BACK",
+      "GLUTES"
+    ],
+    "pattern": "CORE_STABILITY",
+    "equipment": [],
+    "difficulty": "BEGINNER",
+    "category": "STRENGTH",
+    "instructions": [
+      "Lie on the back with hips and knees bent and arms above the chest.",
+      "Reach one heel and the opposite arm away while keeping ribs settled.",
+      "Return and alternate without arching the back.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "incline-shoulder-taps",
+      "bird-dog"
+    ],
+    "harder": [
+      "shoulder-taps",
+      "forearm-plank"
+    ],
+    "limitationTags": [
+      "FLOOR"
+    ],
+    "met": 2.8,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "bird-dog",
+    "name": "Bird dog",
+    "description": "Bird dog for controlled core stability practice.",
+    "primaryMuscle": "ABS",
+    "secondaryMuscles": [
+      "BACK",
+      "GLUTES"
+    ],
+    "pattern": "CORE_STABILITY",
+    "equipment": [],
+    "difficulty": "BEGINNER",
+    "category": "STRENGTH",
+    "instructions": [
+      "Start on hands and knees with the back neutral.",
+      "Reach opposite arm and leg long without twisting the pelvis.",
+      "Return slowly and alternate sides.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "incline-shoulder-taps",
+      "dead-bug"
+    ],
+    "harder": [
+      "shoulder-taps",
+      "forearm-plank"
+    ],
+    "limitationTags": [
+      "FLOOR",
+      "WRIST",
+      "SHOULDER"
+    ],
+    "met": 2.8,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "heel-slides",
+    "name": "Heel slides",
+    "description": "Heel slides for controlled core stability practice.",
+    "primaryMuscle": "ABS",
+    "secondaryMuscles": [
+      "BACK",
+      "GLUTES"
+    ],
+    "pattern": "CORE_STABILITY",
+    "equipment": [],
+    "difficulty": "BEGINNER",
+    "category": "STRENGTH",
+    "instructions": [
+      "Lie on the back with knees bent and heels on the floor.",
+      "Slide one heel away while keeping the pelvis still.",
+      "Bring it back and alternate without holding your breath.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "incline-shoulder-taps",
+      "dead-bug"
+    ],
+    "harder": [
+      "shoulder-taps",
+      "forearm-plank"
+    ],
+    "limitationTags": [
+      "FLOOR"
+    ],
+    "met": 2.8,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "supine-march",
+    "name": "Supine march",
+    "description": "Supine march for controlled core stability practice.",
+    "primaryMuscle": "ABS",
+    "secondaryMuscles": [
+      "BACK",
+      "GLUTES"
+    ],
+    "pattern": "CORE_STABILITY",
+    "equipment": [],
+    "difficulty": "BEGINNER",
+    "category": "STRENGTH",
+    "instructions": [
+      "Lie on the back with knees bent and feet flat.",
+      "Lift one foot a small distance while keeping the pelvis steady.",
+      "Return gently and alternate.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "incline-shoulder-taps",
+      "dead-bug"
+    ],
+    "harder": [
+      "shoulder-taps",
+      "forearm-plank"
+    ],
+    "limitationTags": [
+      "FLOOR"
+    ],
+    "met": 2.8,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "forearm-plank",
+    "name": "Forearm plank",
+    "description": "Forearm plank for controlled core stability practice.",
+    "primaryMuscle": "ABS",
+    "secondaryMuscles": [
+      "BACK",
+      "GLUTES"
+    ],
+    "pattern": "CORE_STABILITY",
+    "equipment": [],
+    "difficulty": "INTERMEDIATE",
+    "category": "STRENGTH",
+    "instructions": [
+      "Rest forearms on the floor with elbows beneath shoulders.",
+      "Step feet back, keeping ribs and hips aligned.",
+      "Hold without sagging or lifting the hips.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Hold or move for the prescribed time; repeat both sides when applicable.",
+    "durationSeconds": 20,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "incline-shoulder-taps",
+      "dead-bug"
+    ],
+    "harder": [
+      "hollow-hold"
+    ],
+    "limitationTags": [
+      "FLOOR",
+      "WRIST",
+      "SHOULDER"
+    ],
+    "met": 2.8,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "knee-forearm-plank",
+    "name": "Knee forearm plank",
+    "description": "Knee forearm plank for controlled core stability practice.",
+    "primaryMuscle": "ABS",
+    "secondaryMuscles": [
+      "BACK",
+      "GLUTES"
+    ],
+    "pattern": "CORE_STABILITY",
+    "equipment": [],
+    "difficulty": "BEGINNER",
+    "category": "STRENGTH",
+    "instructions": [
+      "Place forearms under shoulders and knees on the floor.",
+      "Keep a long line from head to knees.",
+      "Hold gently without letting the waist sag.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Hold or move for the prescribed time; repeat both sides when applicable.",
+    "durationSeconds": 15,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "incline-shoulder-taps",
+      "dead-bug"
+    ],
+    "harder": [
+      "shoulder-taps",
+      "forearm-plank"
+    ],
+    "limitationTags": [
+      "FLOOR",
+      "WRIST",
+      "SHOULDER"
+    ],
+    "met": 2.8,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "side-plank",
+    "name": "Side plank",
+    "description": "Side plank for controlled core stability practice.",
+    "primaryMuscle": "ABS",
+    "secondaryMuscles": [
+      "BACK",
+      "GLUTES"
+    ],
+    "pattern": "CORE_STABILITY",
+    "equipment": [],
+    "difficulty": "INTERMEDIATE",
+    "category": "STRENGTH",
+    "instructions": [
+      "Lie on one side with elbow beneath shoulder and feet stacked or staggered.",
+      "Lift hips into a straight side line.",
+      "Hold without rotating; repeat on the other side.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Hold or move for the prescribed time; repeat both sides when applicable.",
+    "durationSeconds": 20,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "incline-shoulder-taps",
+      "dead-bug"
+    ],
+    "harder": [
+      "hollow-hold"
+    ],
+    "limitationTags": [
+      "FLOOR",
+      "WRIST",
+      "SHOULDER"
+    ],
+    "met": 2.8,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "knee-side-plank",
+    "name": "Knee side plank",
+    "description": "Knee side plank for controlled core stability practice.",
+    "primaryMuscle": "ABS",
+    "secondaryMuscles": [
+      "BACK",
+      "GLUTES"
+    ],
+    "pattern": "CORE_STABILITY",
+    "equipment": [],
+    "difficulty": "BEGINNER",
+    "category": "STRENGTH",
+    "instructions": [
+      "Lie on one side with knees bent and elbow below shoulder.",
+      "Lift hips so the body aligns from shoulder to knees.",
+      "Hold while breathing; repeat on the other side.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Hold or move for the prescribed time; repeat both sides when applicable.",
+    "durationSeconds": 15,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "incline-shoulder-taps",
+      "dead-bug"
+    ],
+    "harder": [
+      "shoulder-taps",
+      "forearm-plank"
+    ],
+    "limitationTags": [
+      "FLOOR",
+      "WRIST",
+      "SHOULDER"
+    ],
+    "met": 2.8,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "hollow-hold",
+    "name": "Hollow hold",
+    "description": "Hollow hold for controlled core stability practice.",
+    "primaryMuscle": "ABS",
+    "secondaryMuscles": [
+      "BACK",
+      "GLUTES"
+    ],
+    "pattern": "CORE_STABILITY",
+    "equipment": [],
+    "difficulty": "ADVANCED",
+    "category": "STRENGTH",
+    "instructions": [
+      "Lie on the back and draw ribs gently toward pelvis.",
+      "Lift shoulders slightly and extend legs only while the lower back stays comfortable.",
+      "Hold without arching; bend knees to reduce difficulty.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Hold or move for the prescribed time; repeat both sides when applicable.",
+    "durationSeconds": 20,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "incline-shoulder-taps",
+      "dead-bug"
+    ],
+    "harder": [],
+    "limitationTags": [
+      "FLOOR"
+    ],
+    "met": 2.8,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "bicycle-crunch",
+    "name": "Bicycle crunch",
+    "description": "Bicycle crunch for controlled core stability practice.",
+    "primaryMuscle": "ABS",
+    "secondaryMuscles": [
+      "BACK",
+      "GLUTES"
+    ],
+    "pattern": "CORE_STABILITY",
+    "equipment": [],
+    "difficulty": "INTERMEDIATE",
+    "category": "STRENGTH",
+    "instructions": [
+      "Lie on the back with hands lightly supporting the head.",
+      "Rotate the ribs toward the opposite knee as the other leg extends.",
+      "Alternate slowly without pulling the neck.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "incline-shoulder-taps",
+      "dead-bug"
+    ],
+    "harder": [
+      "hollow-hold"
+    ],
+    "limitationTags": [
+      "FLOOR"
+    ],
+    "met": 2.8,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "reverse-crunch",
+    "name": "Reverse crunch",
+    "description": "Reverse crunch for controlled core stability practice.",
+    "primaryMuscle": "ABS",
+    "secondaryMuscles": [
+      "BACK",
+      "GLUTES"
+    ],
+    "pattern": "CORE_STABILITY",
+    "equipment": [],
+    "difficulty": "INTERMEDIATE",
+    "category": "STRENGTH",
+    "instructions": [
+      "Lie on the back with knees bent above the hips.",
+      "Curl the pelvis slightly so the tailbone lifts a small distance.",
+      "Lower slowly without swinging the legs.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "incline-shoulder-taps",
+      "dead-bug"
+    ],
+    "harder": [
+      "hollow-hold"
+    ],
+    "limitationTags": [
+      "FLOOR"
+    ],
+    "met": 2.8,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "mountain-climber",
+    "name": "Mountain climber",
+    "description": "Mountain climber for controlled core stability practice.",
+    "primaryMuscle": "ABS",
+    "secondaryMuscles": [
+      "SHOULDERS",
+      "QUADRICEPS"
+    ],
+    "pattern": "CORE_STABILITY",
+    "equipment": [],
+    "difficulty": "INTERMEDIATE",
+    "category": "CARDIO",
+    "instructions": [
+      "Begin in a high plank with hands below shoulders.",
+      "Bring one knee toward the chest without rounding or bouncing.",
+      "Step it back and alternate at a controlled pace.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Hold or move for the prescribed time; repeat both sides when applicable.",
+    "durationSeconds": 30,
+    "restSeconds": 20,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "incline-shoulder-taps",
+      "dead-bug"
+    ],
+    "harder": [
+      "hollow-hold"
+    ],
+    "limitationTags": [
+      "WRIST",
+      "SHOULDER",
+      "FLOOR"
+    ],
+    "met": 3.8,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "slow-plank-knee-drive",
+    "name": "Slow plank knee drive",
+    "description": "Slow plank knee drive for controlled core stability practice.",
+    "primaryMuscle": "ABS",
+    "secondaryMuscles": [
+      "SHOULDERS",
+      "QUADRICEPS"
+    ],
+    "pattern": "CORE_STABILITY",
+    "equipment": [],
+    "difficulty": "BEGINNER",
+    "category": "STRENGTH",
+    "instructions": [
+      "Begin in a stable high plank with feet apart.",
+      "Move one knee a short distance toward the chest.",
+      "Return slowly and alternate without twisting.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Hold or move for the prescribed time; repeat both sides when applicable.",
+    "durationSeconds": 20,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "incline-shoulder-taps",
+      "dead-bug"
+    ],
+    "harder": [
+      "shoulder-taps",
+      "forearm-plank"
+    ],
+    "limitationTags": [
+      "WRIST",
+      "SHOULDER",
+      "FLOOR"
+    ],
+    "met": 2.8,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "dumbbell-biceps-curl",
+    "name": "Dumbbell biceps curl",
+    "description": "Dumbbell biceps curl for controlled curl practice.",
+    "primaryMuscle": "BICEPS",
+    "secondaryMuscles": [
+      "FOREARMS"
+    ],
+    "pattern": "CURL",
+    "equipment": [
+      "DUMBBELLS"
+    ],
+    "difficulty": "BEGINNER",
+    "category": "STRENGTH",
+    "instructions": [
+      "Stand with weights beside the thighs and palms forward.",
+      "Bend elbows while keeping upper arms near the ribs.",
+      "Lower without swinging the torso.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "hammer-curl",
+      "resistance-band-curl"
+    ],
+    "harder": [
+      "concentration-curl"
+    ],
+    "limitationTags": [
+      "ELBOW"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "hammer-curl",
+    "name": "Hammer curl",
+    "description": "Hammer curl for controlled curl practice.",
+    "primaryMuscle": "BICEPS",
+    "secondaryMuscles": [
+      "FOREARMS"
+    ],
+    "pattern": "CURL",
+    "equipment": [
+      "DUMBBELLS"
+    ],
+    "difficulty": "BEGINNER",
+    "category": "STRENGTH",
+    "instructions": [
+      "Hold dumbbells with palms facing each other.",
+      "Curl while keeping wrists straight and elbows still.",
+      "Lower smoothly through a comfortable range.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "dumbbell-biceps-curl",
+      "resistance-band-curl"
+    ],
+    "harder": [
+      "concentration-curl"
+    ],
+    "limitationTags": [
+      "ELBOW"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "resistance-band-curl",
+    "name": "Resistance band curl",
+    "description": "Resistance band curl for controlled curl practice.",
+    "primaryMuscle": "BICEPS",
+    "secondaryMuscles": [
+      "FOREARMS"
+    ],
+    "pattern": "CURL",
+    "equipment": [
+      "RESISTANCE_BANDS"
+    ],
+    "difficulty": "BEGINNER",
+    "category": "STRENGTH",
+    "instructions": [
+      "Stand on the middle of an intact band with shoes on and hold ends securely.",
+      "Curl hands upward with elbows close to the ribs.",
+      "Lower slowly without letting the band snap.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "dumbbell-biceps-curl",
+      "hammer-curl"
+    ],
+    "harder": [
+      "concentration-curl"
+    ],
+    "limitationTags": [
+      "ELBOW"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "concentration-curl",
+    "name": "Concentration curl",
+    "description": "Concentration curl for controlled curl practice.",
+    "primaryMuscle": "BICEPS",
+    "secondaryMuscles": [
+      "FOREARMS"
+    ],
+    "pattern": "CURL",
+    "equipment": [
+      "DUMBBELLS",
+      "BENCH"
+    ],
+    "difficulty": "INTERMEDIATE",
+    "category": "STRENGTH",
+    "instructions": [
+      "Sit on a stable bench and brace the upper arm against the inner thigh.",
+      "Curl one dumbbell without moving the shoulder.",
+      "Lower fully under control and switch sides.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "dumbbell-biceps-curl",
+      "hammer-curl"
+    ],
+    "harder": [],
+    "limitationTags": [
+      "ELBOW"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "dumbbell-triceps-kickback",
+    "name": "Dumbbell triceps kickback",
+    "description": "Dumbbell triceps kickback for controlled elbow extension practice.",
+    "primaryMuscle": "TRICEPS",
+    "secondaryMuscles": [
+      "SHOULDERS"
+    ],
+    "pattern": "ELBOW_EXTENSION",
+    "equipment": [
+      "DUMBBELLS"
+    ],
+    "difficulty": "BEGINNER",
+    "category": "STRENGTH",
+    "instructions": [
+      "Hinge with a neutral back and upper arm beside the torso.",
+      "Extend the elbow without swinging the shoulder.",
+      "Return slowly and repeat on both sides.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [],
+    "harder": [
+      "overhead-triceps-extension",
+      "diamond-push-up"
+    ],
+    "limitationTags": [
+      "ELBOW",
+      "SHOULDER"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "overhead-triceps-extension",
+    "name": "Overhead triceps extension",
+    "description": "Overhead triceps extension for controlled elbow extension practice.",
+    "primaryMuscle": "TRICEPS",
+    "secondaryMuscles": [
+      "SHOULDERS"
+    ],
+    "pattern": "ELBOW_EXTENSION",
+    "equipment": [
+      "DUMBBELLS"
+    ],
+    "difficulty": "INTERMEDIATE",
+    "category": "STRENGTH",
+    "instructions": [
+      "Hold a light dumbbell securely overhead with both hands.",
+      "Bend elbows to lower behind the head only through a comfortable range.",
+      "Straighten elbows without flaring ribs.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "dumbbell-triceps-kickback"
+    ],
+    "harder": [
+      "diamond-push-up"
+    ],
+    "limitationTags": [
+      "ELBOW",
+      "SHOULDER",
+      "OVERHEAD"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "diamond-push-up",
+    "name": "Diamond push-up",
+    "description": "Diamond push-up for controlled elbow extension practice.",
+    "primaryMuscle": "TRICEPS",
+    "secondaryMuscles": [
+      "SHOULDERS"
+    ],
+    "pattern": "ELBOW_EXTENSION",
+    "equipment": [],
+    "difficulty": "ADVANCED",
+    "category": "STRENGTH",
+    "instructions": [
+      "Place hands close beneath the chest; fingers may form a loose diamond.",
+      "Lower with elbows kept near the torso and body straight.",
+      "Press up without forcing wrist angles.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Start with 6–10 controlled repetitions, leaving 2–3 comfortable repetitions in reserve; alternate sides evenly.",
+    "durationSeconds": 0,
+    "restSeconds": 60,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "dumbbell-triceps-kickback"
+    ],
+    "harder": [],
+    "limitationTags": [
+      "ELBOW",
+      "SHOULDER",
+      "WRIST"
+    ],
+    "met": 3.5,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "marching-in-place",
+    "name": "Marching in place",
+    "description": "Marching in place for controlled cardio practice.",
+    "primaryMuscle": "FULL_BODY",
+    "secondaryMuscles": [
+      "QUADRICEPS",
+      "CALVES"
+    ],
+    "pattern": "CARDIO",
+    "equipment": [],
+    "difficulty": "BEGINNER",
+    "category": "CARDIO",
+    "instructions": [
+      "Stand tall with space around your feet.",
+      "Lift one knee comfortably while swinging the opposite arm.",
+      "Alternate at a pace that allows you to speak.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Hold or move for the prescribed time; repeat both sides when applicable.",
+    "durationSeconds": 40,
+    "restSeconds": 20,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "low-impact-step-jacks",
+      "side-step-touch"
+    ],
+    "harder": [
+      "jumping-jacks",
+      "high-knees"
+    ],
+    "limitationTags": [],
+    "met": 3.8,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "low-impact-step-jacks",
+    "name": "Low-impact step jacks",
+    "description": "Low-impact step jacks for controlled cardio practice.",
+    "primaryMuscle": "FULL_BODY",
+    "secondaryMuscles": [
+      "QUADRICEPS",
+      "CALVES"
+    ],
+    "pattern": "CARDIO",
+    "equipment": [],
+    "difficulty": "BEGINNER",
+    "category": "CARDIO",
+    "instructions": [
+      "Stand tall with arms at the sides.",
+      "Step one foot sideways while lifting arms to a comfortable height.",
+      "Return and alternate, keeping one foot grounded.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Hold or move for the prescribed time; repeat both sides when applicable.",
+    "durationSeconds": 40,
+    "restSeconds": 20,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "marching-in-place",
+      "side-step-touch"
+    ],
+    "harder": [
+      "jumping-jacks",
+      "high-knees"
+    ],
+    "limitationTags": [],
+    "met": 3.8,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "side-step-touch",
+    "name": "Side step touch",
+    "description": "Side step touch for controlled cardio practice.",
+    "primaryMuscle": "FULL_BODY",
+    "secondaryMuscles": [
+      "QUADRICEPS",
+      "CALVES"
+    ],
+    "pattern": "CARDIO",
+    "equipment": [],
+    "difficulty": "BEGINNER",
+    "category": "CARDIO",
+    "instructions": [
+      "Stand with knees soft and feet under hips.",
+      "Step sideways and bring the other foot toward it.",
+      "Reverse direction without crossing feet.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Hold or move for the prescribed time; repeat both sides when applicable.",
+    "durationSeconds": 40,
+    "restSeconds": 20,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "marching-in-place",
+      "low-impact-step-jacks"
+    ],
+    "harder": [
+      "jumping-jacks",
+      "high-knees"
+    ],
+    "limitationTags": [],
+    "met": 3.8,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "standing-shadow-boxing",
+    "name": "Standing shadow boxing",
+    "description": "Standing shadow boxing for controlled cardio practice.",
+    "primaryMuscle": "FULL_BODY",
+    "secondaryMuscles": [
+      "QUADRICEPS",
+      "CALVES"
+    ],
+    "pattern": "CARDIO",
+    "equipment": [],
+    "difficulty": "BEGINNER",
+    "category": "CARDIO",
+    "instructions": [
+      "Stand in a comfortable staggered stance with elbows near the torso.",
+      "Reach alternating light punches without locking elbows.",
+      "Return hands and rotate gently through the torso.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Hold or move for the prescribed time; repeat both sides when applicable.",
+    "durationSeconds": 40,
+    "restSeconds": 20,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "marching-in-place",
+      "low-impact-step-jacks"
+    ],
+    "harder": [
+      "jumping-jacks",
+      "high-knees"
+    ],
+    "limitationTags": [],
+    "met": 3.8,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "jumping-jacks",
+    "name": "Jumping jacks",
+    "description": "Jumping jacks for controlled cardio practice.",
+    "primaryMuscle": "FULL_BODY",
+    "secondaryMuscles": [
+      "QUADRICEPS",
+      "GLUTES",
+      "CALVES"
+    ],
+    "pattern": "CARDIO",
+    "equipment": [],
+    "difficulty": "INTERMEDIATE",
+    "category": "CARDIO",
+    "instructions": [
+      "Start with feet together and knees soft.",
+      "Hop feet apart while raising arms comfortably.",
+      "Land quietly and return, keeping knees aligned.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Hold or move for the prescribed time; repeat both sides when applicable.",
+    "durationSeconds": 30,
+    "restSeconds": 20,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "marching-in-place",
+      "low-impact-step-jacks"
+    ],
+    "harder": [
+      "burpee"
+    ],
+    "limitationTags": [
+      "JUMPING",
+      "KNEE",
+      "ANKLE"
+    ],
+    "met": 3.8,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "high-knees",
+    "name": "High knees",
+    "description": "High knees for controlled cardio practice.",
+    "primaryMuscle": "FULL_BODY",
+    "secondaryMuscles": [
+      "QUADRICEPS",
+      "GLUTES",
+      "CALVES"
+    ],
+    "pattern": "CARDIO",
+    "equipment": [],
+    "difficulty": "INTERMEDIATE",
+    "category": "CARDIO",
+    "instructions": [
+      "Stand tall with knees soft.",
+      "Alternate lifting knees while jogging lightly in place.",
+      "Land gently under the hips rather than leaning backward.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Hold or move for the prescribed time; repeat both sides when applicable.",
+    "durationSeconds": 30,
+    "restSeconds": 20,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "marching-in-place",
+      "low-impact-step-jacks"
+    ],
+    "harder": [
+      "burpee"
+    ],
+    "limitationTags": [
+      "JUMPING",
+      "KNEE",
+      "ANKLE"
+    ],
+    "met": 3.8,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "jump-rope",
+    "name": "Jump rope",
+    "description": "Jump rope for controlled cardio practice.",
+    "primaryMuscle": "FULL_BODY",
+    "secondaryMuscles": [
+      "QUADRICEPS",
+      "GLUTES",
+      "CALVES"
+    ],
+    "pattern": "CARDIO",
+    "equipment": [
+      "JUMP_ROPE"
+    ],
+    "difficulty": "INTERMEDIATE",
+    "category": "CARDIO",
+    "instructions": [
+      "Check overhead clearance and stand on a level non-slip surface.",
+      "Turn the rope mainly with wrists and make small jumps.",
+      "Land softly; stop before coordination deteriorates.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Hold or move for the prescribed time; repeat both sides when applicable.",
+    "durationSeconds": 30,
+    "restSeconds": 20,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "marching-in-place",
+      "low-impact-step-jacks"
+    ],
+    "harder": [
+      "burpee"
+    ],
+    "limitationTags": [
+      "JUMPING",
+      "KNEE",
+      "ANKLE"
+    ],
+    "met": 3.8,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "burpee",
+    "name": "Burpee",
+    "description": "Burpee for controlled cardio practice.",
+    "primaryMuscle": "FULL_BODY",
+    "secondaryMuscles": [
+      "QUADRICEPS",
+      "GLUTES",
+      "CALVES"
+    ],
+    "pattern": "CARDIO",
+    "equipment": [],
+    "difficulty": "ADVANCED",
+    "category": "CARDIO",
+    "instructions": [
+      "From standing, bend knees and place hands on the floor.",
+      "Step or hop back to a plank without sagging, then return feet under hips.",
+      "Stand and add a small jump only if comfortable.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Hold or move for the prescribed time; repeat both sides when applicable.",
+    "durationSeconds": 20,
+    "restSeconds": 20,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "marching-in-place",
+      "low-impact-step-jacks"
+    ],
+    "harder": [],
+    "limitationTags": [
+      "JUMPING",
+      "KNEE",
+      "ANKLE",
+      "WRIST",
+      "SHOULDER"
+    ],
+    "met": 3.8,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "squat-thrust",
+    "name": "Squat thrust",
+    "description": "Squat thrust for controlled cardio practice.",
+    "primaryMuscle": "FULL_BODY",
+    "secondaryMuscles": [
+      "QUADRICEPS",
+      "GLUTES",
+      "CALVES"
+    ],
+    "pattern": "CARDIO",
+    "equipment": [],
+    "difficulty": "INTERMEDIATE",
+    "category": "CARDIO",
+    "instructions": [
+      "Squat and place hands beneath shoulders on the floor.",
+      "Step or hop feet back to a controlled plank.",
+      "Return feet toward the hands and stand without an added jump.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Exhale during the effort; inhale on the controlled return. Avoid holding your breath.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Hold or move for the prescribed time; repeat both sides when applicable.",
+    "durationSeconds": 20,
+    "restSeconds": 20,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "marching-in-place",
+      "low-impact-step-jacks"
+    ],
+    "harder": [
+      "burpee"
+    ],
+    "limitationTags": [
+      "JUMPING",
+      "KNEE",
+      "ANKLE",
+      "WRIST",
+      "SHOULDER"
+    ],
+    "met": 3.8,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "cat-cow",
+    "name": "Cat-cow",
+    "description": "Cat-cow for controlled mobility practice.",
+    "primaryMuscle": "BACK",
+    "secondaryMuscles": [
+      "ABS"
+    ],
+    "pattern": "MOBILITY",
+    "equipment": [],
+    "difficulty": "BEGINNER",
+    "category": "MOBILITY",
+    "instructions": [
+      "Start on hands and knees with wrists below shoulders.",
+      "Slowly round the back while breathing out.",
+      "Gently lengthen into a small arch while breathing in.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Breathe slowly throughout; do not force the stretch.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Hold or move for the prescribed time; repeat both sides when applicable.",
+    "durationSeconds": 30,
+    "restSeconds": 20,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "thoracic-rotation",
+      "childs-pose"
+    ],
+    "harder": [],
+    "limitationTags": [
+      "FLOOR",
+      "WRIST",
+      "SHOULDER"
+    ],
+    "met": 2.3,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "thoracic-rotation",
+    "name": "Thoracic rotation",
+    "description": "Thoracic rotation for controlled mobility practice.",
+    "primaryMuscle": "BACK",
+    "secondaryMuscles": [
+      "ABS"
+    ],
+    "pattern": "MOBILITY",
+    "equipment": [],
+    "difficulty": "BEGINNER",
+    "category": "MOBILITY",
+    "instructions": [
+      "Lie on the side with knees bent and arms reaching forward.",
+      "Open the top arm across the torso as the upper back rotates.",
+      "Keep knees together and return without forcing the shoulder.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Breathe slowly throughout; do not force the stretch.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Hold or move for the prescribed time; repeat both sides when applicable.",
+    "durationSeconds": 30,
+    "restSeconds": 20,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "cat-cow",
+      "childs-pose"
+    ],
+    "harder": [],
+    "limitationTags": [
+      "FLOOR"
+    ],
+    "met": 2.3,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "childs-pose",
+    "name": "Childs pose",
+    "description": "Childs pose for controlled mobility practice.",
+    "primaryMuscle": "BACK",
+    "secondaryMuscles": [
+      "ABS"
+    ],
+    "pattern": "MOBILITY",
+    "equipment": [],
+    "difficulty": "BEGINNER",
+    "category": "MOBILITY",
+    "instructions": [
+      "Kneel on a comfortable surface with knees apart as needed.",
+      "Sit hips back only as comfortable and reach arms forward.",
+      "Breathe gently without forcing knees or shoulders.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Breathe slowly throughout; do not force the stretch.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Hold or move for the prescribed time; repeat both sides when applicable.",
+    "durationSeconds": 30,
+    "restSeconds": 20,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "cat-cow",
+      "thoracic-rotation"
+    ],
+    "harder": [],
+    "limitationTags": [
+      "FLOOR"
+    ],
+    "met": 2.3,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "supine-hamstring-stretch",
+    "name": "Supine hamstring stretch",
+    "description": "Supine hamstring stretch for controlled mobility practice.",
+    "primaryMuscle": "HAMSTRINGS",
+    "secondaryMuscles": [
+      "GLUTES"
+    ],
+    "pattern": "MOBILITY",
+    "equipment": [],
+    "difficulty": "BEGINNER",
+    "category": "MOBILITY",
+    "instructions": [
+      "Lie on the back with one knee bent.",
+      "Support the other thigh with hands and gently straighten that knee.",
+      "Hold a mild stretch without pulling the toes forcefully.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Breathe slowly throughout; do not force the stretch.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Hold or move for the prescribed time; repeat both sides when applicable.",
+    "durationSeconds": 30,
+    "restSeconds": 20,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "cat-cow",
+      "thoracic-rotation"
+    ],
+    "harder": [],
+    "limitationTags": [
+      "HIP"
+    ],
+    "met": 2.3,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "hip-flexor-stretch",
+    "name": "Hip flexor stretch",
+    "description": "Hip flexor stretch for controlled mobility practice.",
+    "primaryMuscle": "HAMSTRINGS",
+    "secondaryMuscles": [
+      "GLUTES"
+    ],
+    "pattern": "MOBILITY",
+    "equipment": [],
+    "difficulty": "BEGINNER",
+    "category": "MOBILITY",
+    "instructions": [
+      "Use a comfortable half-kneeling stance with padding under the rear knee.",
+      "Gently tuck the pelvis and shift forward slightly.",
+      "Hold without arching the back; repeat both sides.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Breathe slowly throughout; do not force the stretch.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Hold or move for the prescribed time; repeat both sides when applicable.",
+    "durationSeconds": 30,
+    "restSeconds": 20,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "cat-cow",
+      "thoracic-rotation"
+    ],
+    "harder": [],
+    "limitationTags": [
+      "HIP"
+    ],
+    "met": 2.3,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "standing-hamstring-hinge",
+    "name": "Standing hamstring hinge",
+    "description": "Standing hamstring hinge for controlled mobility practice.",
+    "primaryMuscle": "HAMSTRINGS",
+    "secondaryMuscles": [
+      "GLUTES"
+    ],
+    "pattern": "MOBILITY",
+    "equipment": [],
+    "difficulty": "BEGINNER",
+    "category": "MOBILITY",
+    "instructions": [
+      "Place one heel slightly forward with the knee soft.",
+      "Hinge gently at the hips with a long spine.",
+      "Hold a mild stretch, then change sides.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Breathe slowly throughout; do not force the stretch.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Hold or move for the prescribed time; repeat both sides when applicable.",
+    "durationSeconds": 30,
+    "restSeconds": 20,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "cat-cow",
+      "thoracic-rotation"
+    ],
+    "harder": [],
+    "limitationTags": [
+      "HIP"
+    ],
+    "met": 2.3,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "ankle-rocks",
+    "name": "Ankle rocks",
+    "description": "Ankle rocks for controlled mobility practice.",
+    "primaryMuscle": "CALVES",
+    "secondaryMuscles": [],
+    "pattern": "MOBILITY",
+    "equipment": [],
+    "difficulty": "BEGINNER",
+    "category": "MOBILITY",
+    "instructions": [
+      "Stand facing a wall in a staggered stance.",
+      "Move the front knee forward over the toes while the heel stays down.",
+      "Return and repeat both sides without collapsing the arch.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Breathe slowly throughout; do not force the stretch.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Hold or move for the prescribed time; repeat both sides when applicable.",
+    "durationSeconds": 30,
+    "restSeconds": 20,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "cat-cow",
+      "thoracic-rotation"
+    ],
+    "harder": [],
+    "limitationTags": [
+      "ANKLE"
+    ],
+    "met": 2.3,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  },
+  {
+    "id": "wall-calf-stretch",
+    "name": "Wall calf stretch",
+    "description": "Wall calf stretch for controlled mobility practice.",
+    "primaryMuscle": "CALVES",
+    "secondaryMuscles": [],
+    "pattern": "MOBILITY",
+    "equipment": [],
+    "difficulty": "BEGINNER",
+    "category": "MOBILITY",
+    "instructions": [
+      "Place hands against a wall and step one foot back.",
+      "Keep the rear heel down and toes forward while bending the front knee.",
+      "Hold gently, then switch sides.",
+      "Move within a comfortable range. Stop the set if technique changes or pain develops."
+    ],
+    "breathing": "Breathe slowly throughout; do not force the stretch.",
+    "mistakes": [
+      "Rushing the movement or using momentum.",
+      "Forcing range or continuing through pain."
+    ],
+    "safety": [
+      "Use a clear, non-slip space and secure equipment.",
+      "Stop for pain, dizziness or unusual breathlessness; seek appropriate guidance."
+    ],
+    "repsGuidance": "Hold or move for the prescribed time; repeat both sides when applicable.",
+    "durationSeconds": 30,
+    "restSeconds": 20,
+    "mediaUrl": null,
+    "thumbnail": "/home-workouts/exercise-guide.svg",
+    "easier": [
+      "cat-cow",
+      "thoracic-rotation"
+    ],
+    "harder": [],
+    "limitationTags": [
+      "ANKLE"
+    ],
+    "met": 2.3,
+    "sourceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/"
+  }
+]

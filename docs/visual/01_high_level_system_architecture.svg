@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" width="100%" height="100%">
+  <defs>
+    <style>
+      .title { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 20px; font-weight: bold; fill: #1e293b; }
+      .subtitle { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; fill: #64748b; }
+      .box-label { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 600; }
+      .box-desc { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 11px; fill: #475569; }
+      .section-title { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: bold; fill: #334155; text-transform: uppercase; letter-spacing: 0.05em; }
+      .arrow-text { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 11px; fill: #0284c7; font-weight: 500; }
+      .mono { font-family: Consolas, 'Courier New', monospace; font-size: 11px; }
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#0284c7" />
+    </marker>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#10b981" />
+    </marker>
+    <marker id="arrow-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#94a3b8" />
+    </marker>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#0f172a" flood-opacity="0.08" />
+    </filter>
+  </defs>
+
+  <rect width="100%" height="100%" fill="#f8fafc" rx="8" />
+  
+  <rect x="0" y="0" width="1000" height="64" fill="#ffffff" rx="8" />
+  <line x1="0" y1="64" x2="1000" y2="64" stroke="#e2e8f0" stroke-width="1.5" />
+  <circle cx="36" cy="32" r="14" fill="#3b82f6" />
+  <text x="36" y="37" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="bold" fill="#ffffff">G</text>
+  <text x="64" y="30" class="title">GymFit &bull; High-Level System Architecture</text>
+  <text x="64" y="48" class="subtitle">Multi-Gym Fitness Tracking &amp; Gym Management SaaS Platform</text>
+
+  
+  <rect x="50" y="90" width="900" height="110" rx="10" fill="#f0f9ff" stroke="#bae6fd" stroke-width="2" />
+  <text x="70" y="115" class="section-title" fill="#0369a1">Client Layer (React 18 + Tailwind CSS SPA)</text>
+  
+  <rect x="70" y="130" width="190" height="55" rx="6" fill="#ffffff" stroke="#0284c7" stroke-width="1.5" filter="url(#shadow)" />
+  <text x="165" y="152" text-anchor="middle" class="box-label" fill="#0369a1">Platform Admin</text>
+  <text x="165" y="170" text-anchor="middle" class="box-desc">SaaS Management</text>
+
+  <rect x="290" y="130" width="190" height="55" rx="6" fill="#ffffff" stroke="#0284c7" stroke-width="1.5" filter="url(#shadow)" />
+  <text x="385" y="152" text-anchor="middle" class="box-label" fill="#0369a1">Gym Owner Portal</text>
+  <text x="385" y="170" text-anchor="middle" class="box-desc">Business &amp; Operations</text>
+
+  <rect x="510" y="130" width="190" height="55" rx="6" fill="#ffffff" stroke="#0284c7" stroke-width="1.5" filter="url(#shadow)" />
+  <text x="605" y="152" text-anchor="middle" class="box-label" fill="#0369a1">Trainer Portal</text>
+  <text x="605" y="170" text-anchor="middle" class="box-desc">Routines &amp; Coaching</text>
+
+  <rect x="730" y="130" width="200" height="55" rx="6" fill="#ffffff" stroke="#0284c7" stroke-width="1.5" filter="url(#shadow)" />
+  <text x="830" y="152" text-anchor="middle" class="box-label" fill="#0369a1">Member Portal</text>
+  <text x="830" y="170" text-anchor="middle" class="box-desc">QR Pass &amp; Workout Log</text>
+
+  <line x1="500" y1="200" x2="500" y2="240" stroke="#0284c7" stroke-width="2" marker-end="url(#arrow)" />
+  <text x="510" y="225" class="arrow-text">HTTPS / REST JSON / Bearer JWT</text>
+
+  <rect x="50" y="245" width="900" height="80" rx="10" fill="#fdf4ff" stroke="#f0abfc" stroke-width="2" />
+  <text x="70" y="270" class="section-title" fill="#a21caf">API &amp; Security Gateway (Spring Security 6)</text>
+  
+  <rect x="70" y="280" width="260" height="36" rx="6" fill="#ffffff" stroke="#c084fc" />
+  <text x="200" y="303" text-anchor="middle" class="box-desc" font-weight="600">JwtAuthenticationFilter (HMAC-SHA256)</text>
+
+  <rect x="360" y="280" width="260" height="36" rx="6" fill="#ffffff" stroke="#c084fc" />
+  <text x="490" y="303" text-anchor="middle" class="box-desc" font-weight="600">TenantContextFilter (gymId -> ThreadLocal)</text>
+
+  <rect x="650" y="280" width="280" height="36" rx="6" fill="#ffffff" stroke="#c084fc" />
+  <text x="790" y="303" text-anchor="middle" class="box-desc" font-weight="600">Method Security (@PreAuthorize Guard)</text>
+
+  <line x1="500" y1="325" x2="500" y2="360" stroke="#0284c7" stroke-width="2" marker-end="url(#arrow)" />
+
+  <rect x="50" y="365" width="900" height="215" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2" />
+  <text x="70" y="390" class="section-title" fill="#1e293b">Modular Monolith Core (Spring Boot 3 / Java 21)</text>
+
+  <rect x="70" y="405" width="260" height="45" rx="6" fill="#ffffff" stroke="#94a3b8" />
+  <text x="200" y="425" text-anchor="middle" class="box-label" fill="#1e293b">Platform Module</text>
+  <text x="200" y="440" text-anchor="middle" class="box-desc">SaaS Tiers &amp; Gym Provisioning</text>
+
+  <rect x="370" y="405" width="260" height="45" rx="6" fill="#ffffff" stroke="#94a3b8" />
+  <text x="500" y="425" text-anchor="middle" class="box-label" fill="#1e293b">Gym &amp; Branch Module</text>
+  <text x="500" y="440" text-anchor="middle" class="box-desc">Branches &amp; Operational Profiles</text>
+
+  <rect x="670" y="405" width="260" height="45" rx="6" fill="#ffffff" stroke="#94a3b8" />
+  <text x="800" y="425" text-anchor="middle" class="box-label" fill="#1e293b">User &amp; Auth Module</text>
+  <text x="800" y="440" text-anchor="middle" class="box-desc">BCrypt, RBAC, Profiles</text>
+
+  <rect x="70" y="460" width="260" height="45" rx="6" fill="#ffffff" stroke="#94a3b8" />
+  <text x="200" y="480" text-anchor="middle" class="box-label" fill="#1e293b">Membership Module</text>
+  <text x="200" y="495" text-anchor="middle" class="box-desc">Plans, Invoicing, Renewals</text>
+
+  <rect x="370" y="460" width="260" height="45" rx="6" fill="#ffffff" stroke="#94a3b8" />
+  <text x="500" y="480" text-anchor="middle" class="box-label" fill="#1e293b">Attendance Engine</text>
+  <text x="500" y="495" text-anchor="middle" class="box-desc">QR Pass, &lt;100ms Check-in</text>
+
+  <rect x="670" y="460" width="260" height="45" rx="6" fill="#ffffff" stroke="#94a3b8" />
+  <text x="800" y="480" text-anchor="middle" class="box-label" fill="#1e293b">Class Scheduling</text>
+  <text x="800" y="495" text-anchor="middle" class="box-desc">Timetables, Capacity, Lock</text>
+
+  <rect x="70" y="515" width="260" height="45" rx="6" fill="#ffffff" stroke="#94a3b8" />
+  <text x="200" y="535" text-anchor="middle" class="box-label" fill="#1e293b">Workout Engine</text>
+  <text x="200" y="550" text-anchor="middle" class="box-desc">Routines, Exercises, PRs</text>
+
+  <rect x="370" y="515" width="260" height="45" rx="6" fill="#ffffff" stroke="#94a3b8" />
+  <text x="500" y="535" text-anchor="middle" class="box-label" fill="#1e293b">Nutrition &amp; Metrics</text>
+  <text x="500" y="550" text-anchor="middle" class="box-desc">Macros, Body Measurements</text>
+
+  <rect x="670" y="515" width="260" height="45" rx="6" fill="#ffffff" stroke="#94a3b8" />
+  <text x="800" y="535" text-anchor="middle" class="box-label" fill="#1e293b">Analytics Engine</text>
+  <text x="800" y="550" text-anchor="middle" class="box-desc">MRR, Churn &amp; Utilization</text>
+
+  <line x1="500" y1="580" x2="500" y2="615" stroke="#0284c7" stroke-width="2" marker-end="url(#arrow)" />
+  <text x="510" y="602" class="arrow-text">Spring Data JPA (Hibernate @Filter: gym_id = :gymId)</text>
+
+  <rect x="50" y="620" width="900" height="80" rx="10" fill="#ecfdf5" stroke="#6ee7b7" stroke-width="2" />
+  <text x="70" y="645" class="section-title" fill="#047857">Relational Database Layer (MySQL 8.x InnoDB)</text>
+  <text x="70" y="670" class="box-label" fill="#065f46">Shared Database &amp; Shared Schema Multi-Tenancy</text>
+  <text x="70" y="688" class="box-desc">Compound Indexing: (gym_id, id), (gym_id, created_at) &bull; Zero Cross-Tenant Data Leakage</text>
+
+</svg>

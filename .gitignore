@@ -1,0 +1,9 @@
+node_modules 
+dist
+.tools/
+backend/target/
+backend/.idea/
+.env
+.env.*
+!.env.example
+!**/.env.example

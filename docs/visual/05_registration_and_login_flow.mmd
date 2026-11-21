@@ -1,0 +1,29 @@
+flowchart TD
+    Start([User Initiates Authentication]) --> Choice{Action?}
+
+    %% Registration Flow
+    Choice -->|Register Member| RegInput[Input Details: Email, Name, Password, Branch, Plan]
+    RegInput --> RegVal{Valid Input?}
+    RegVal -->|No| RegErr[Show Validation Error: 400 Bad Request]
+    RegErr --> RegInput
+    RegVal -->|Yes| CheckEmail{Email Already Exists?}
+    CheckEmail -->|Yes| Conflict[Return 409 Conflict: Email Registered]
+    Conflict --> RegInput
+    CheckEmail -->|No| HashPass[Hash Password with BCrypt cost=12]
+    HashPass --> CreateUser[Create User & MemberProfile Entity in DB]
+    CreateUser --> GenQR[Generate Unique QR Pass Hash Token]
+    GenQR --> RegSuccess[Return 201 Created: Registration Complete]
+
+    %% Login Flow
+    Choice -->|Login| LoginInput[Input Credentials: Email & Password]
+    LoginInput --> FetchUser{Find User by Email in DB?}
+    FetchUser -->|Not Found| BadCreds[Return 401: Invalid Credentials]
+    BadCreds --> LoginInput
+    FetchUser -->|Found| CheckStatus{Is User & Gym Active?}
+    CheckStatus -->|Suspended| InactiveErr[Return 403: Account/Gym Suspended]
+    CheckStatus -->|Active| VerifyPass{BCrypt Password Match?}
+    VerifyPass -->|No| BadCreds
+    VerifyPass -->|Yes| IssueJWT[Issue Stateless JWT Access Token 15m & Refresh Token 7d]
+    IssueJWT --> SaveRefresh[Store Encrypted Refresh Token in DB]
+    SaveRefresh --> RetTokens[Return 200 OK: Access Token + User Info]
+    RetTokens --> NavDash[Redirect User to Role-Specific Dashboard]

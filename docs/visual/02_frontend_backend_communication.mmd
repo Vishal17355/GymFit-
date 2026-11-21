@@ -1,0 +1,37 @@
+sequenceDiagram
+    autonumber
+    actor User as User (Browser / Mobile)
+    participant React as React Frontend (Axios Client)
+    participant SecFilter as Spring Security (JWT Filter)
+    participant TenantCtx as TenantContextFilter
+    participant Controller as REST Controller (@PreAuthorize)
+    participant Service as Domain Service Layer
+    participant JPA as Spring Data JPA (Hibernate Filter)
+    participant DB as MySQL 8.x Database
+
+    Note over User, React: 1. User initiates an action (e.g., View Workout Log)
+    User->>React: Clicks "My Workouts"
+    React->>React: Axios Request Interceptor attaches Authorization: Bearer <token>
+    React->>SecFilter: GET /api/v1/workouts/my-plan (HTTP Header with Bearer Token)
+
+    Note over SecFilter, TenantCtx: 2. Gateway Security & Multi-Tenant Extraction
+    SecFilter->>SecFilter: Validate JWT signature & expiration
+    SecFilter->>TenantCtx: Token valid; pass request
+    TenantCtx->>TenantCtx: Extract gymId & userId claims -> Set ThreadLocal TenantContext
+
+    Note over Controller, Service: 3. RBAC & Business Logic
+    TenantCtx->>Controller: Forward to WorkoutController
+    Controller->>Controller: Validate @PreAuthorize("hasRole('MEMBER')")
+    Controller->>Service: Call workoutService.getActivePlan(memberId)
+    Service->>Service: Check business rules & tenant safety
+
+    Note over JPA, DB: 4. Tenant-Filtered Database Query
+    Service->>JPA: Query findByMemberProfileId(memberId)
+    JPA->>JPA: Apply Hibernate Filter: WHERE gym_id = :currentGymId
+    JPA->>DB: Execute SQL with parameterized gym_id
+    DB-->>JPA: Return isolated records
+    JPA-->>Service: Return Plan Entity
+    Service-->>Controller: Map Entity to Immutable Java 21 Record (PlanDTO)
+    Controller-->>React: HTTP 200 OK with JSON response payload
+    React->>React: Update UI component state
+    React-->>User: Render Workout Plan on screen
